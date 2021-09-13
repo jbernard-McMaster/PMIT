@@ -1,0 +1,8 @@
+FF
+F-[[X]+X]+F[+FX]-X
+TAIL
+
+[[X]+X]+F[+FX]-X
+GENERAL
+
+

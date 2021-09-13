@@ -1,0 +1,225 @@
+Right to Left Localization
+==========================
+
+26: A in wake from 80 to 80
+Localizing B < A > * Tail Fragment A / ABBBABA @ 80
+25: B in wake from 79 to 73
+Localizing A < B > A Max Fragment BABBBAB @ 79
+24: A in wake from 78 to 72
+Localizing B < A > B Max Fragment BBABABBB @ 77
+Localizing B < A > B Max Fragment BBBABA @ 74
+Localizing B < A > B Mid Fragments A @ 78
+Localizing B < A > B Mid Fragments A @ 74
+Localizing B < A > B Mid Fragments A @ 72
+23: B in wake from 76 to 68
+Localizing B < B > A Max Fragment BBB @ 71
+Localizing B < B > A Max Fragment BBB @ 70
+Localizing B < B > A Max Fragment BBB @ 69
+Localizing B < B > A Max Fragment BBB @ 68
+22: B in wake from 70 to 65
+Localizing B < B > B Max Fragment BBBBBB @ 70
+Localizing B < B > B Max Fragment BBBBBB @ 69
+Localizing B < B > B Max Fragment BBBBBB @ 68
+Localizing B < B > B Mid Fragments BBB @ 70
+Localizing B < B > B Mid Fragments BBB @ 69
+Localizing B < B > B Mid Fragments BBB @ 68
+Localizing B < B > B Mid Fragments BBB @ 67
+Localizing B < B > B Mid Fragments BBB @ 66
+Localizing B < B > B Mid Fragments BBB @ 65
+21: B in wake from 67 to 62
+Localizing A < B > B Head Fragment B / BBB @ 67
+Localizing A < B > B Head Fragment B / BBB @ 66
+Localizing A < B > B Head Fragment B / BBB @ 65
+20: A in wake from 66 to 62
+Localizing B < A > B Max Fragment BBABABBB @ 65
+Localizing B < A > B Max Fragment BBBABA @ 62
+Localizing B < A > B Mid Fragments A @ 62
+19: B in wake from 64 to 56
+Localizing A < B > A Max Fragment BABBBAB @ 61
+18: A in wake from 60 to 54
+Localizing B < A > B Max Fragment BBABABBB @ 59
+Localizing B < A > B Max Fragment BBBABA @ 56
+Localizing B < A > B Mid Fragments A @ 60
+Localizing B < A > B Mid Fragments A @ 56
+Localizing B < A > B Mid Fragments A @ 54
+17: B in wake from 58 to 50
+Localizing B < B > A Max Fragment BBB @ 53
+Localizing B < B > A Max Fragment BBB @ 52
+Localizing B < B > A Max Fragment BBB @ 51
+Localizing B < B > A Max Fragment BBB @ 50
+16: B in wake from 52 to 47
+Localizing B < B > B Max Fragment BBBBBB @ 52
+Localizing B < B > B Max Fragment BBBBBB @ 51
+Localizing B < B > B Max Fragment BBBBBB @ 50
+Localizing B < B > B Max Fragment BBBBBB @ 49
+Localizing B < B > B Max Fragment BBBBBB @ 48
+Localizing B < B > B Max Fragment BBBBBB @ 47
+Localizing B < B > B Mid Fragments BBB @ 52
+Localizing B < B > B Mid Fragments BBB @ 51
+Localizing B < B > B Mid Fragments BBB @ 50
+Localizing B < B > B Mid Fragments BBB @ 49
+Localizing B < B > B Mid Fragments BBB @ 48
+Localizing B < B > B Mid Fragments BBB @ 47
+15: B in wake from 49 to 41
+Localizing B < B > B Max Fragment BBBBBB @ 49
+Localizing B < B > B Max Fragment BBBBBB @ 48
+Localizing B < B > B Max Fragment BBBBBB @ 47
+Localizing B < B > B Max Fragment BBBBBB @ 46
+Localizing B < B > B Max Fragment BBBBBB @ 45
+Localizing B < B > B Max Fragment BBBBBB @ 44
+Localizing B < B > B Max Fragment BBBBBB @ 43
+Localizing B < B > B Max Fragment BBBBBB @ 42
+Localizing B < B > B Max Fragment BBBBBB @ 41
+Localizing B < B > B Mid Fragments BBB @ 49
+Localizing B < B > B Mid Fragments BBB @ 48
+Localizing B < B > B Mid Fragments BBB @ 47
+Localizing B < B > B Mid Fragments BBB @ 46
+Localizing B < B > B Mid Fragments BBB @ 45
+Localizing B < B > B Mid Fragments BBB @ 44
+Localizing B < B > B Mid Fragments BBB @ 43
+Localizing B < B > B Mid Fragments BBB @ 42
+Localizing B < B > B Mid Fragments BBB @ 41
+14: B in wake from 46 to 35
+Localizing B < B > B Max Fragment BBBBBB @ 46
+Localizing B < B > B Max Fragment BBBBBB @ 45
+Localizing B < B > B Max Fragment BBBBBB @ 44
+Localizing B < B > B Max Fragment BBBBBB @ 43
+Localizing B < B > B Max Fragment BBBBBB @ 42
+Localizing B < B > B Max Fragment BBBBBB @ 41
+Localizing B < B > B Max Fragment BBBBBB @ 40
+Localizing B < B > B Max Fragment BBBBBB @ 39
+Localizing B < B > B Max Fragment BBBBBB @ 38
+Localizing B < B > B Max Fragment BBBBBB @ 37
+Localizing B < B > B Max Fragment BBBBBB @ 36
+Localizing B < B > B Max Fragment BBBBBB @ 35
+Localizing B < B > B Mid Fragments BBB @ 46
+Localizing B < B > B Mid Fragments BBB @ 45
+Localizing B < B > B Mid Fragments BBB @ 44
+Localizing B < B > B Mid Fragments BBB @ 43
+Localizing B < B > B Mid Fragments BBB @ 42
+Localizing B < B > B Mid Fragments BBB @ 41
+Localizing B < B > B Mid Fragments BBB @ 40
+Localizing B < B > B Mid Fragments BBB @ 39
+Localizing B < B > B Mid Fragments BBB @ 38
+Localizing B < B > B Mid Fragments BBB @ 37
+Localizing B < B > B Mid Fragments BBB @ 36
+Localizing B < B > B Mid Fragments BBB @ 35
+13: B in wake from 43 to 29
+Localizing B < B > B Max Fragment BBBBBB @ 43
+Localizing B < B > B Max Fragment BBBBBB @ 42
+Localizing B < B > B Max Fragment BBBBBB @ 41
+Localizing B < B > B Max Fragment BBBBBB @ 40
+Localizing B < B > B Max Fragment BBBBBB @ 39
+Localizing B < B > B Max Fragment BBBBBB @ 38
+Localizing B < B > B Max Fragment BBBBBB @ 37
+Localizing B < B > B Max Fragment BBBBBB @ 36
+Localizing B < B > B Max Fragment BBBBBB @ 35
+Localizing B < B > B Max Fragment BBBBBB @ 34
+Localizing B < B > B Max Fragment BBBBBB @ 33
+Localizing B < B > B Max Fragment BBBBBB @ 32
+Localizing B < B > B Mid Fragments BBB @ 43
+Localizing B < B > B Mid Fragments BBB @ 42
+Localizing B < B > B Mid Fragments BBB @ 41
+Localizing B < B > B Mid Fragments BBB @ 40
+Localizing B < B > B Mid Fragments BBB @ 39
+Localizing B < B > B Mid Fragments BBB @ 38
+Localizing B < B > B Mid Fragments BBB @ 37
+Localizing B < B > B Mid Fragments BBB @ 36
+Localizing B < B > B Mid Fragments BBB @ 35
+Localizing B < B > B Mid Fragments BBB @ 34
+Localizing B < B > B Mid Fragments BBB @ 33
+Localizing B < B > B Mid Fragments BBB @ 32
+Localizing B < B > B Mid Fragments BBB @ 31
+Localizing B < B > B Mid Fragments BBB @ 30
+Localizing B < B > B Mid Fragments BBB @ 29
+12: B in wake from 40 to 26
+Localizing B < B > B Max Fragment BBBBBB @ 40
+Localizing B < B > B Max Fragment BBBBBB @ 39
+Localizing B < B > B Max Fragment BBBBBB @ 38
+Localizing B < B > B Max Fragment BBBBBB @ 37
+Localizing B < B > B Max Fragment BBBBBB @ 36
+Localizing B < B > B Max Fragment BBBBBB @ 35
+Localizing B < B > B Max Fragment BBBBBB @ 34
+Localizing B < B > B Max Fragment BBBBBB @ 33
+Localizing B < B > B Max Fragment BBBBBB @ 32
+Localizing B < B > B Mid Fragments BBB @ 40
+Localizing B < B > B Mid Fragments BBB @ 39
+Localizing B < B > B Mid Fragments BBB @ 38
+Localizing B < B > B Mid Fragments BBB @ 37
+Localizing B < B > B Mid Fragments BBB @ 36
+Localizing B < B > B Mid Fragments BBB @ 35
+Localizing B < B > B Mid Fragments BBB @ 34
+Localizing B < B > B Mid Fragments BBB @ 33
+Localizing B < B > B Mid Fragments BBB @ 32
+Localizing B < B > B Mid Fragments BBB @ 31
+Localizing B < B > B Mid Fragments BBB @ 30
+Localizing B < B > B Mid Fragments BBB @ 29
+11: B in wake from 37 to 26
+Localizing B < B > B Max Fragment BBBBBB @ 37
+Localizing B < B > B Max Fragment BBBBBB @ 36
+Localizing B < B > B Max Fragment BBBBBB @ 35
+Localizing B < B > B Max Fragment BBBBBB @ 34
+Localizing B < B > B Max Fragment BBBBBB @ 33
+Localizing B < B > B Max Fragment BBBBBB @ 32
+Localizing B < B > B Mid Fragments BBB @ 37
+Localizing B < B > B Mid Fragments BBB @ 36
+Localizing B < B > B Mid Fragments BBB @ 35
+Localizing B < B > B Mid Fragments BBB @ 34
+Localizing B < B > B Mid Fragments BBB @ 33
+Localizing B < B > B Mid Fragments BBB @ 32
+Localizing B < B > B Mid Fragments BBB @ 31
+Localizing B < B > B Mid Fragments BBB @ 30
+Localizing B < B > B Mid Fragments BBB @ 29
+10: B in wake from 34 to 26
+Localizing B < B > B Max Fragment BBBBBB @ 34
+Localizing B < B > B Max Fragment BBBBBB @ 33
+Localizing B < B > B Max Fragment BBBBBB @ 32
+Localizing B < B > B Mid Fragments BBB @ 34
+Localizing B < B > B Mid Fragments BBB @ 33
+Localizing B < B > B Mid Fragments BBB @ 32
+Localizing B < B > B Mid Fragments BBB @ 31
+Localizing B < B > B Mid Fragments BBB @ 30
+Localizing B < B > B Mid Fragments BBB @ 29
+9: B in wake from 31 to 26
+Localizing A < B > B Head Fragment B / BBB @ 31
+Localizing A < B > B Head Fragment B / BBB @ 30
+Localizing A < B > B Head Fragment B / BBB @ 29
+8: A in wake from 30 to 26
+Localizing B < A > B Max Fragment BBABABBB @ 29
+Localizing B < A > B Max Fragment BBBABA @ 26
+Localizing B < A > B Mid Fragments A @ 26
+7: B in wake from 28 to 20
+Localizing A < B > A Max Fragment BABBBAB @ 25
+6: A in wake from 24 to 18
+Localizing B < A > B Max Fragment BBABABBB @ 23
+Localizing B < A > B Max Fragment BBBABA @ 20
+Localizing B < A > B Mid Fragments A @ 24
+Localizing B < A > B Mid Fragments A @ 20
+Localizing B < A > B Mid Fragments A @ 18
+5: B in wake from 22 to 14
+Localizing B < B > A Max Fragment BBB @ 17
+Localizing B < B > A Max Fragment BBB @ 16
+Localizing B < B > A Max Fragment BBB @ 15
+Localizing B < B > A Max Fragment BBB @ 14
+4: B in wake from 16 to 11
+Localizing B < B > B Max Fragment BBBBBB @ 16
+Localizing B < B > B Max Fragment BBBBBB @ 15
+Localizing B < B > B Max Fragment BBBBBB @ 14
+Localizing B < B > B Mid Fragments BBB @ 16
+Localizing B < B > B Mid Fragments BBB @ 15
+Localizing B < B > B Mid Fragments BBB @ 14
+Localizing B < B > B Mid Fragments BBB @ 13
+Localizing B < B > B Mid Fragments BBB @ 12
+Localizing B < B > B Mid Fragments BBB @ 11
+3: B in wake from 13 to 8
+Localizing A < B > B Head Fragment B / BBB @ 13
+Localizing A < B > B Head Fragment B / BBB @ 12
+Localizing A < B > B Head Fragment B / BBB @ 11
+2: A in wake from 12 to 8
+Localizing B < A > B Max Fragment BBABABBB @ 11
+Localizing B < A > B Max Fragment BBBABA @ 8
+Localizing B < A > B Mid Fragments A @ 8
+1: B in wake from 10 to 2
+Localizing A < B > A Max Fragment BABBBAB @ 7
+0: A in wake from 6 to 0
+Localizing * < A > B Head Fragment A / ABABBBA @ 6

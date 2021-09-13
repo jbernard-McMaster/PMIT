@@ -1,0 +1,98 @@
+﻿alphabet,A|F [ ] + -|A|-1 -1 -1 -1
+generations,3
+axiom A
+table0,100
+parameters,
+#Name TableID Odds P L R Condition Successor
+rule0 0       100  A * * *         A+F+A--F--A+F+A
+
+***
+F
+F[+F]F[-F]FF
+FF[+F[+F]F[-F]FF]BB[-F[+F]F[-F]FF]BBF[+F]F[-F]FF
+FF[+F[+F]F[-F]FF]FF[-F[+F]F[-F]FF]FFF[+F]F[-F]FF
+FFFF[+FF[+F[+F]F[-F]FF]FF[-F[+F]F[-F]FF]FFF[+F]F[-F]FF]FFFF[-FF[+F[+F]F[-F]FF]FF[-F[+F]F[-F]FF]FFF[+F]F[-F]FF]FFFFFF[+F[+F]F[-F]FF]FF[-F[+F]F[-F]FF]FFF[+F]F[-F]FF
+
+FF+F
+FF[-FF+F]FF[-FF+F][+FFFF+F]
+
+FF[+XF]
+
+
+F [+F             ]F [+F             ][-F             ]
+FF[+F[+F]F[+F][-F]]FF[+F[+F]F[+F][-F]][-F[+F]F[-F][+F]]
+
+TREE1
+F
+F[+F]F[-F]F
+F[+F]F[-F]F[+F[+F]F[-F]F]F[+F]F[-F]F[-F[+F]F[-F]F]F[+F]F[-F]F
+F[+F]F[-F]F[+F[+F]F[-F]F]F[+F]F[-F]F[-F[+F]F[-F]F]F[+F]F[-F]F
+F[+F]F[-F]F[+F[+F]F[-F]F]F[+F]F[-F]F[-F[+F]F[-F]F]F[+F]F[-F]F[+F[+F]F[-F]F[+F[+F]F[-F]F]F[+F]F[-F]F[-F[+F]F[- F]F]F[+F]F[-F]F]F[+F]F[-F]F[+F[+F]F[-F]F]F[+F]F[-F]F[- F[+F]F[-F]F]F[+F]F[-F]F[-F[+F]F[-F]F[+F[+F]F[-F]F]F[+F]F[- F]F[-F[+F]F[-F]F]F[+F]F[-F]F]F[+F]F[-F]F[+F[+F]F[- F]F]F[+F]F[-F]F[-F[+F]F[-F]F]F[+F]F[-F]F
+
+SNOWFLAKE
+F+F--F+F
+F+F--F+F+F+F--F+F--F+F--F+F_F+F--F+F
+F+F--F+F+F+F--F+F--F+F--F+F+F+F--F+F
+F+F--F+F+F+F--F+F--F+F--F+F+F+F--F+F+F+F--F+F+F+F--F+F--F+F--F+F+F+F--F+F--F+F--F+F+F+F--F+F--F+F--F+F+F+F--F+F+F+F--F+F+F+F--F+F--F+F--F+F+F+F--F+F
+
+KOCH
+F
+F+F-F-FF+F+F-F
+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F=F+F-F-FF+F+F-F=F+F-F-FF+F+F-F
+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F
+
+HILBERT
+F-F-F
+
+
+F-F-F+F+FF+FF-FFF-F +- F-F-F+F+FF+FF-F +- F-F-F+F+F-FF-F-F+F+FF+FF
+F-F-F+F+FF+FF-FFF-F +- F-F-F+F+FF+FF-F +- F-F-F+F+F-FF-F-F+F+FF+FF
+F+F+F-FF-F-F+F+F-F-FF-F+F+FFF+F+F-F-F+F+F-F-F+F+FF+F-F-F+F+F-F-FF-F+F+F-F-F+F+F-FF-F-F+F+F-F-F+F+F-F-FFF-F-F+FF+F+F-F-F+F+FF+F-F-F+FF+F+F-F-F+F+F-FF-F-F+F+F-F-F+F+F-F-FFF-F-F+FF+F+F-F-F+F+FF+F-F-FF-F+F+F-FF-F-F+F+F-F-FF-F+F+FFF+F+F-F-F+F+F-F-F+F+FF+F-F-F+F+F-F-F
+
+
+
+
++RnF−LnFLn−FRn+
++BF-AFA-FB+
+
+COLOR TREE
+
+Y -> G[-Y][+Y]GY
+G -> GG
+
+Y
+G     [- Y          ] [+ Y          ] G  Y
+GG    [+ G  [+ Y          ] [- Y          ] G  Y          ] [- G [+Y          ][-Y]GY] GG G[-Y][+Y]GY
+GG GG [- GG [- G[+Y][-Y]GY] [+ G[+Y][-Y]GY] GG G[+Y][-Y]GY] [+GG [-G[-Y][+Y]GY][+G[+Y][-Y]GY]GGG[+Y][-Y]GY]GGGGGGG[+G[+Y][-Y]GY][-G[+Y][-Y]GY]GGG[-Y][+Y]GY
+
+
+COLOR CURVE
+
+L --> +R-F-R+
+R --> -L+F+L-
+
+L--F--L--F--
++R-F-R+--F--+R-F-R+--F--
++-L+F+L--F--L+F+L-+--F--+-L+F+L--F--L+F+L-+--F--
+
+F--F--F--F
+F-F-F-F-F-F-F-F
+F+F+F--F--F+F+F--F--F+F+F--F--F--F+F+F--F
+
+F               ++ F               ++ F               ++ F
+F+F             +  F+F             +  F+F             +  F+F
+F++F-F-F        ++ F++F-F-F        ++ F++F-F-F        ++ F++F-F-F
+F+F+F+F--F--F+F +  F+F+F+F--F--F+F +  F+F+F+F+F--F--F +  F+F+F+F+F--F--F+F+F
+
+
+
+F--F+F+F -- F--F+F+F -- F--F+F+F -- F--F+F+F
+F--F+F+F -- F--F+F+F -- F--F+F+F -- F--F+F+F
+
+F        -- F        +  F        + F       -- F        -- F        +  F        + F       -- F        -- F        +  F        + F       -- F        -- F        +  F        + F
+A        -- A        ?  A        + B       -- A        -- A        ?  A        + B       -- A        -- A        ?  A        + B       -- A        -- A        ?  A        + B              
+F--F+F+F -- F--F+F+F -- F--F+F+F + F+F+F+F -- F--F+F+F -- F--F+F+F -- F--F+F+F + F+F+F+F -- F--F+F+F -- F--F+F+F -- F--F+F+F + F+F+F+F -- F--F+F+F -- F--F+F+F -- F--F+F+F + F+F+F+F
+A--A+A+B -- A--A+A+B -- A--A+A+B + A+B+A+B -- A--A+A+B -- A--A+A+B -- A--A+A+B + A+B+A+B -- A--A+A+B -- A--A+A+B -- A--A+A+B + A+B+A+B -- A--A+A+B -- A--A+A+B -- A--A+A+B + A+B+A+B
+
+
+F--F+F+F -- F--F+F+F -- F--F+F+F + F+F+F+F F--F+F+F -- F--F+F+F -- F--F+F+F + F+F+F+F F--F+F+F -- F--F+F+F -- F--F+F+F + F+F+F+F 

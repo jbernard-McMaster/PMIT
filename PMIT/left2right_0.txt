@@ -1,0 +1,7 @@
+
+0: A in wake from 0 to 0
+Localizing * < A > B Head Fragment A / ABABBBA @ 0
+1: B in wake from 1 to 7
+Localizing A < B > A Max Fragment BABBBAB @ 1
+2: A in wake from 2 to 8
+Localizing B < A > * Tail Fragment A / ABBBABA @ 2

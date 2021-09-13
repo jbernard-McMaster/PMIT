@@ -1,0 +1,9 @@
+alphabet,A B||A B
+generations,*
+axiom A(0,0)BA(1,0)
+tables,100
+parameters,p1,p2
+#Name TableID Odds P L R Condition Successor
+rule0 0       100  A * * p1<=sin(p1)+1      A(p1+1,0)
+rule1 0       100  A * * p1>1       A(p1+1,1)B
+rule2 0       100  B * * *         A(0,0)

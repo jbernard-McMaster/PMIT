@@ -1,0 +1,8 @@
+B,USUCUSUS
+A,A
+A,BA
+A,BBA
+U,
+S,
+C,
+C,B

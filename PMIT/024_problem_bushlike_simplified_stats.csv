@@ -1,0 +1,138 @@
+Avg Rule True Length = ,17.75, Avg Rule Compressed Length ,13.5
+# Drawing Rules   = ,1,# Producing Rules = ,3,# Terminal Rules  = ,4
+Symbol Pattern
+==============
+000,000,000,000,000,000,000,000,000,000,000,000,003,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,003,000,001,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+001,003,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,
+001,000,000,000,000,000,002,000,000,000,000,000,000,000,000,000,002,
+000,000,000,000,000,000,000,000,000,000,000,001,000,000,000,000,000,
+000,000,000,000,000,000,002,000,000,000,000,000,000,000,000,000,000,
+003,000,000,000,000,001,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,004,000,
+000,000,000,000,001,000,000,001,000,000,000,000,000,000,000,001,000,
+000,000,000,003,000,000,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,001,000,000,000,000,000,000,001,000,000,000,
+001,000,000,000,000,000,000,000,002,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,004,002,000,000,000,000,000,
+001,000,000,000,000,000,000,000,000,002,000,000,000,000,000,000,014,
+
+Compressed Symbol Pattern
+=========================
+004,007,
+007,045,
+
+Rule #00 Statistics
+===================
+Rule Pattern: ,1S 1G 1S 
+Compressed Pattern: ,SGS
+True Length: ,7 Compressed Length: 3
+Ratio Producing to Graphical = ,0.6666667
+# Repeated Symbols = ,0
+# G2P transitions = ,1
+# P2G transitions = ,1
+Unique Symbols: S,F,
+Unique Graphics: /,
+Is producer? ,True
+Produces producer? ,True
+
+Rule #01 Statistics
+===================
+Rule Pattern: ,SB 1G 1G 1G 1G 1G 1G 1G 1G 1G 1G 1G 1G 1G 1G 1G 1G 1G 1G 1G 1G EB 
+Compressed Pattern: ,BGE
+True Length: ,23 Compressed Length: 20
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,4
+Unique Symbols: 
+Unique Graphics: [,',^,{,-,f,+,:,},],
+Is producer? ,False
+Produces producer? ,False
+
+Rule #02 Statistics
+===================
+Rule Pattern: ,SB 1G 2S 1G 1S EB 1G 1G SB 1G 2S 1G 1S EB 1G 1G SB 1G 2S 1G 1S EB 
+Compressed Pattern: ,BGSGSEGBSGSEGBSGSE
+True Length: ,35 Compressed Length: 25
+Ratio Producing to Graphical = ,0.36
+# Repeated Symbols = ,0
+# G2P transitions = ,6
+# P2G transitions = ,8
+Unique Symbols: F,L,A,
+Unique Graphics: [,&,!,],/,',
+Is producer? ,True
+Produces producer? ,True
+
+Rule #03 Statistics
+===================
+Rule Pattern: ,2S 
+Compressed Pattern: ,S
+True Length: ,2 Compressed Length: 2
+Ratio Producing to Graphical = ,1
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: F,L,
+Unique Graphics: 
+Is producer? ,True
+Produces producer? ,True
+
+Rule #04 Statistics
+===================
+Rule Pattern: ,1G 
+Compressed Pattern: ,G
+True Length: ,1 Compressed Length: 1
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: 
+Unique Graphics: {,
+Is producer? ,False
+Produces producer? ,False
+
+Rule #05 Statistics
+===================
+Rule Pattern: ,1G 
+Compressed Pattern: ,G
+True Length: ,1 Compressed Length: 1
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: 
+Unique Graphics: },
+Is producer? ,False
+Produces producer? ,False
+
+Rule #06 Statistics
+===================
+Rule Pattern: ,1G 
+Compressed Pattern: ,G
+True Length: ,1 Compressed Length: 1
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: 
+Unique Graphics: ',
+Is producer? ,False
+Produces producer? ,False
+
+Rule #07 Statistics
+===================
+Rule Pattern: ,1G 
+Compressed Pattern: ,G
+True Length: ,1 Compressed Length: 1
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: 
+Unique Graphics: :,
+Is producer? ,False
+Produces producer? ,False

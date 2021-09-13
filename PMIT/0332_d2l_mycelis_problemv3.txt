@@ -1,0 +1,22 @@
+alphabet,T a A U b x c t u B C D|[ ] + - F & ! { } % / ; ~ _ : ^|T a A U b x c t u B C D|-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+generations,4
+axiom A
+table0,100
+parameters,
+#Name TableID Odds P L R Condition Successor
+rule0 0       100  T * * *         T
+rule1 0       100  a b * *         b
+rule1 0       100  a d * *         b
+rule1 0       100  A * * *         a[&FFFx][&&!{-F+F+F-:-F+F+F-}]FFF////////A
+rule1 0       100  A b * *         U[;B~w]
+rule1 0       100  A d * *         U[;B~w]
+rule1 0       100  U * * *         cd
+rule1 0       100  b * c *         t
+rule1 0       100  x c * *         A
+rule1 0       100  c * d *         u
+rule1 0       100  t * * *         c
+rule1 0       100  u * * *         d
+rule1 0       100  B * * *         C%
+rule1 0       100  C * * *         D%
+rule1 0       100  D * * *         _D[FF_/[_^F][!{&&&&-F+F-:-F+F}]////[_^F][!{&&&&-F+F-:-F+F}]////[_^F][!{&&&&-F+F-:-F+F}]////[_^F][!{&&&&-F+F-:-F+F}]////[_^F][!{&&&&-F+F-:-F+F}]]
+

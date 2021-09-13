@@ -1,0 +1,42 @@
+vocabulary,a b c d e g h i j k l m n o p A B C D E G H I J K L M N O P Q Z Y X W U|=>|[ ] + - f F
+generations,*
+axiom,+ a b F
+rule0,*|*,c|=>|F F F Q [ + A ] [ - I ] F F f d
+rule1,*|*,Q|=>|F Q Z Y
+rule2,*|*,A|=>|B C f F F F
+rule3,*|*,I|=>|J K f F F F
+rule4,*|*,d|=>|+ F F F Q [ + A ] [ - I ] F F f e
+rule5,*|*,B|=>|f F
+rule6,*|*,C|=>|D
+rule7,*|*,J|=>|f F
+rule8,*|*,K|=>|L
+rule9,*|*,e|=>|F F F Q [ + A ] [ - I ] F F f g
+rule10,*|*,D|=>|f F F F E
+rule11,*|*,L|=>|f F F F M
+rule12,*|*,g|=>|- F F F Q [ + A ] [ - I ] F F f h
+rule13,*|*,E|=>|f F F [ - P ] F G
+rule14,*|*,M|=>|f F F [ + P ] F N
+rule15,*|*,h|=>|F F F Q [ + A ] [ - I ] F F f i
+rule16,*|*,P|=>|f F f F
+rule17,*|*,G|=>|f F F [ - P ] F H
+rule18,*|*,N|=>|f F F [ + P ] F O
+rule19,*|*,i|=>|F F F Q [ + f p ] F F f j
+rule20,*|*,H|=>|f F F [ - P ] F
+rule21,*|*,O|=>|f F F [ + P ] F
+rule22,*|*,p|=>|a b F
+rule23,*|*,j|=>|F F F Q [ + A ] [ - I ] F F f k
+rule24,*|*,a|=>|F f
+rule25,*|*,b|=>|c
+rule26,*|*,k|=>|+ F F F Q [ + A ] [ - I ] F F f l
+rule27,*|*,l|=>|F F F Q [ + A ] [ - I ] F F f m
+rule28,*|*,m|=>|- F F F Q [ + A ] [ - I ] F F f n
+rule29,*|*,n|=>|F F F Q [ + A ] [ - I ] F F f o
+rule30,*|*,o|=>|F F F Q [ - f p ] F F f c
+rule31,*|*,Z|=>|X [ - U ] X X [ + U ] X X [ - W ] X X [ + W ] X
+rule32,*|*,Y|=>|Z Y
+rule33,*|*,X|=>|f f F F F F
+rule34,*|*,W|=>|F F F F F F F F F F F F F F F F F F F F F F F F F F F
+rule35,*|*,U|=>|F F f F F [ - F F F F F F ] f F F f F F [ + F F F F F F ] f F F f F F [ - F F [ - F ] F [ + F ] F ] f F F f F F [ + F F [ - F ] F [ + F ] F ] f F F f
+
+
+

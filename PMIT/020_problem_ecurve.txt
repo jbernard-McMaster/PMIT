@@ -1,0 +1,5 @@
+vocabulary,A B|=>|+ - 
+generations,*
+axiom,A
+rule,*|*,A|=>|A A + B + B - A - A + B + B A - B - A A B + A - B - A A - B + A B + B + A - A - B B + 
+rule,*|*,B|=>|- A A + B + B - A - A B - A + B B + A + B - A B B + A + B A - A - B + B + A - A - B B 

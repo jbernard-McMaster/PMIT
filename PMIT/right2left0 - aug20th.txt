@@ -1,0 +1,9 @@
+Right to Left Localization
+==========================
+
+2: A in wake from 8 to 8
+Localizing B < A > * Tail Fragment A / ABBBABA @ 8
+1: B in wake from 7 to 1
+Localizing A < B > A Max Fragment BABBBAB @ 7
+0: A in wake from 6 to 0
+Localizing * < A > B Head Fragment A / ABABBBA @ 6

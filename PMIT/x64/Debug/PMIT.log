@@ -1,0 +1,66 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  PMIProcessor.cpp
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\productionrule.h(70): warning C4490: 'override': incorrect use of override specifier; 'ProductionRule::ToStringAbstract' does not match a base ref class method
+  c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\productionrule.h(70): note: 'new' or 'override' are only allowed when a matching base method from a ref class exists
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\productionrule.h(65): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\productionrule.h(79): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiproblemv2.h(29): warning C4490: 'override': incorrect use of override specifier; 'PMIProblemV2::UpdateTotalRuleLengths' does not match a base ref class method
+  c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiproblemv2.h(29): note: 'new' or 'override' are only allowed when a matching base method from a ref class exists
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiproblem_lengthv2.h(12): warning C4490: 'override': incorrect use of override specifier; 'PMIProblem_LengthV2::Assess_Length_ModulesOnly' does not match a base ref class method
+  c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiproblem_lengthv2.h(12): note: 'new' or 'override' are only allowed when a matching base method from a ref class exists
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiproblem_lengthv2.h(19): warning C4490: 'override': incorrect use of override specifier; 'PMIProblem_LengthV2::SolveLengthSearch_ModulesOnly' does not match a base ref class method
+  c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiproblem_lengthv2.h(19): note: 'new' or 'override' are only allowed when a matching base method from a ref class exists
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiproblem_math.h(30): warning C4490: 'override': incorrect use of override specifier; 'PMIProblem_Mathv2::SolveLengthLinearAlgebra' does not match a base ref class method
+  c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiproblem_math.h(30): note: 'new' or 'override' are only allowed when a matching base method from a ref class exists
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmirandommodelgenerator.h(32): warning C4486: 'PMIRandomModelGenerator::BuildBranch': a private virtual method of a ref class or value class should be marked 'sealed'
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmirandommodelgenerator.h(34): warning C4486: 'PMIRandomModelGenerator::PickConstant': a private virtual method of a ref class or value class should be marked 'sealed'
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmirandommodelgenerator.h(35): warning C4486: 'PMIRandomModelGenerator::PickModule': a private virtual method of a ref class or value class should be marked 'sealed'
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmirandommodelgenerator.h(36): warning C4486: 'PMIRandomModelGenerator::PickSymbol': a private virtual method of a ref class or value class should be marked 'sealed'
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmirandommodelgenerator.h(37): warning C4486: 'PMIRandomModelGenerator::Verify': a private virtual method of a ref class or value class should be marked 'sealed'
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmitemplateproblem.h(17): warning C4490: 'override': incorrect use of override specifier; 'PMITemplateProblem::Assess_CreateRulesStep' does not match a base ref class method
+  c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmitemplateproblem.h(17): note: 'new' or 'override' are only allowed when a matching base method from a ref class exists
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmitemplateproblem_constants.h(14): warning C4490: 'override': incorrect use of override specifier; 'PMITemplateProblem_Constants::Assess_CreateAxiomStep' does not match a base ref class method
+  c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmitemplateproblem_constants.h(14): note: 'new' or 'override' are only allowed when a matching base method from a ref class exists
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(60): warning C4101: 'e': unreferenced local variable
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(82): warning C4101: 'e': unreferenced local variable
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(124): warning C4101: 'e': unreferenced local variable
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(357): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(369): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(376): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(380): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(444): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(256): warning C4101: 'e': unreferenced local variable
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(410): warning C4101: 'e': unreferenced local variable
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(424): warning C4101: 'e': unreferenced local variable
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(539): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(498): warning C4101: 'e': unreferenced local variable
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(633): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(592): warning C4101: 'e': unreferenced local variable
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(709): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(685): warning C4101: 'e': unreferenced local variable
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(786): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(762): warning C4101: 'e': unreferenced local variable
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(863): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(839): warning C4101: 'e': unreferenced local variable
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(916): warning C4101: 'e': unreferenced local variable
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(1146): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(1146): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(1150): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(1184): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(1184): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(1188): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(1188): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(1195): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(1199): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(1224): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(1228): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(1232): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(1255): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(1284): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(1292): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(1310): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(1326): warning C4101: 'valueB': unreferenced local variable
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(1325): warning C4101: 'valueF': unreferenced local variable
+c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit\pmiprocessor.cpp(1130): warning C4715: 'PMIProcessor::AlgorithmMenu': not all control paths return a value
+  AlphabetV3.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  PMIT.vcxproj -> C:\Users\littl\source\repos\cjbernard-pmit-7c745a145551\x64\Debug\PMIT.exe

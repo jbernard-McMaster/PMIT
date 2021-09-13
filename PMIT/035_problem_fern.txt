@@ -1,0 +1,18 @@
+vocabulary,H A B U L M X U V ; ! { } . P|=>|[ ] + - & \ / f F
+generations,*
+axiom,/ / / / / / / / / / H
+rule00,*|*,H|=>|[ & & & A ] [ / / U [ & & & A ] / / V [ & & & A ] / / U [ & & & A ] / / V [ & & & A ] ] [ \ \ U [ & & & A ] \ \ V [ & & & A ] \ \ U [ & & & A ] \ \ V [ & & & A ] ]
+rule01,*|*,A|=>|[ / - - - P ] ; X X [ \ + + + P ] ; X X B
+rule02,*|*,B|=>|[ / - - - P ] ; X X [ \ + + + P ] X X & ; A
+rule03,*|*,U|=>|; ; [ - - - L ] . [ + + + L ] X ; ; [ - - - L ] ; ; ; [ + + + L ] X ; ; ; [ - - - M ] . [ + + + M ] ; X P
+rule04,*|*,L|=>|[ { + F X - F X - F X + ! + F X - F X - F X } ]
+rule05,*|*,M|=>|[ { + F X - X - F X + ! + F X - X - F X } ]
+rule06,*|*,X|=>|F X
+rule07,*|*,U|=>|; ; ;
+rule08,*|*,V|=>|. . .
+rule09,*|*,;|=>|;
+rule10,*|*,!|=>|!
+rule11,*|*,{|=>|{
+rule12,*|*,}|=>|}
+rule13,*|*,.|=>|.
+rule14,*|*,P|=>|P

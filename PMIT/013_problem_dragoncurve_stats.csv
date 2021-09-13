@@ -1,0 +1,42 @@
+Avg Rule True Length = ,5, Avg Rule Compressed Length ,5
+# Drawing Rules   = ,0,# Producing Rules = ,2,# Terminal Rules  = ,0
+Symbol Pattern
+==============
+000,000,001,000,000,
+000,000,000,001,001,
+001,001,000,000,000,
+001,000,001,000,000,
+001,000,000,000,000,
+
+Compressed Symbol Pattern
+=========================
+000,003,
+003,002,
+
+Rule #00 Statistics
+===================
+Rule Pattern: ,1S 1G 1S 2G 
+Compressed Pattern: ,SGSG
+True Length: ,5 Compressed Length: 5
+Ratio Producing to Graphical = ,0.4
+# Repeated Symbols = ,0
+# G2P transitions = ,1
+# P2G transitions = ,2
+Unique Symbols: X,Y,
+Unique Graphics: +,F,
+Is producer? ,True
+Produces producer? ,True
+
+Rule #01 Statistics
+===================
+Rule Pattern: ,2G 1S 1G 1S 
+Compressed Pattern: ,GSGS
+True Length: ,5 Compressed Length: 5
+Ratio Producing to Graphical = ,0.4
+# Repeated Symbols = ,0
+# G2P transitions = ,2
+# P2G transitions = ,1
+Unique Symbols: X,Y,
+Unique Graphics: -,F,
+Is producer? ,True
+Produces producer? ,True

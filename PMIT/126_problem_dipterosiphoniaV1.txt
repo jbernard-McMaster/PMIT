@@ -1,0 +1,33 @@
+vocabulary,a b c d e g h i j k l m n o p q r s t u v w x z A B C D F f|=>|[ + ] -
+generations,*
+axiom,+ a b F
+rule0,*|*,c|=>|F F F z [ + k ] [ - r ] F F f d
+rule1,*|*,z|=>|F z
+rule2,*|*,k|=>|l m f F
+rule3,*|*,r|=>|s t f F
+rule4,*|*,d|=>|F F F z [ + k ] [ - r ] F F f e
+rule5,*|*,l|=>|f F
+rule6,*|*,m|=>|n
+rule7,*|*,s|=>|f F
+rule8,*|*,t|=>|u
+rule9,*|*,e|=>|F F F z [ + f j ] F F f g
+rul10,*|*,n|=>|f F F [ - A ] F o
+rul11,*|*,u|=>|f F F [ + A ] F v
+rul12,*|*,j|=>|a b F
+rul13,*|*,g|=>|F F F z [ + k ] [ - r ] F F f h
+rul14,*|*,A|=>|f F B
+rul15,*|*,o|=>|f F F [ - B ] F p
+rul16,*|*,v|=>|f F F [ + B ] F w
+rul17,*|*,a|=>|F f
+rul18,*|*,b|=>|c
+rul19,*|*,h|=>|F F F z [ + k ] [ - r ] F F f i
+rul20,*|*,B|=>|f F C
+rul21,*|*,p|=>|f F F [ - C ] F q
+rul22,*|*,w|=>|f F F [ + C ] F x
+rul23,*|*,i|=>|F F F z [ - f j ] F F f c
+rul24,*|*,C|=>|f F D
+rul25,*|*,q|=>|f F F [ - D ] F
+rul26,*|*,x|=>|f F F [ + D ] F
+rul27,*|*,D|=>|f F
+rulXX,*|*,F|=>|F
+rulXX,*|*,f|=>|f

@@ -1,0 +1,17 @@
+U[-S]U[-C]U[+S]U[-S]
+
+ffFFFF
+FFFFFFFFFFFFFFFFFFF
+FfF[-FFF]fF[-F]fF[+FFF]fF[-FFF]fF[+FF]fF[+F]fF
+TAIL
+
+A\
+ffFFFF
+
+
+GENERAL
+
+
+
+
+

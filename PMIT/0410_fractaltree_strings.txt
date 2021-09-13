@@ -1,0 +1,3 @@
+A-[[A]+A]+A[+AA]-A
+AA-[[A-[[A]+A]+A[+AA]-A]+A-[[A]+A]+A[+AA]-A]+AA[+AAA-[[A]+A]+A[+AA]-A]-A-[[A]+A]+A[+AA]-A
+AAAA-[[AA-[[A-[[A]+A]+A[+AA]-A]+A-[[A]+A]+A[+AA]-A]+AA[+AAA-[[A]+A]+A[+AA]-A]-A-[[A]+A]+A[+AA]-A]+AA-[[A-[[A]+A]+A[+AA]-A]+A-[[A]+A]+A[+AA]-A]+AA[+AAA-[[A]+A]+A[+AA]-A]-A-[[A]+A]+A[+AA]-A]+AAAA[+AAAAAA-[[A-[[A]+A]+A[+AA]-A]+A-[[A]+A]+A[+AA]-A]+AA[+AAA-[[A]+A]+A[+AA]-A]-A-[[A]+A]+A[+AA]-A]-AA-[[A-[[A]+A]+A[+AA]-A]+A-[[A]+A]+A[+AA]-A]+AA[+AAA-[[A]+A]+A[+AA]-A]-A-[[A]+A]+A[+AA]-A

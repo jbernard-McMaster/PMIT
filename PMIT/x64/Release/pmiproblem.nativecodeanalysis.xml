@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit</FILEPATH>
+      <FILENAME>pmiproblem.cpp</FILENAME>
+      <LINE>286</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>6294</DEFECTCODE>
+    <DESCRIPTION>Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed.</DESCRIPTION>
+    <FUNCTION>PMIProblem::AssembleFragments</FUNCTION>
+    <DECORATED>?AssembleFragments@PMIProblem@@$$FUE$AAMPE$AAV?$List@PE$AAVSymbol@@@Generic@Collections@System@@H@Z</DECORATED>
+    <FUNCLINE>158</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\littl\source\repos\cjbernard-pmit-7c745a145551\pmit</FILEPATH>
+      <FILENAME>pmiproblem.cpp</FILENAME>
+      <LINE>4191</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6294</DEFECTCODE>
+    <DESCRIPTION>Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed.</DESCRIPTION>
+    <FUNCTION>PMIProblem::RollbackPartialSolution</FUNCTION>
+    <DECORATED>?RollbackPartialSolution@PMIProblem@@$$FUE$AAMXXZ</DECORATED>
+    <FUNCLINE>4189</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

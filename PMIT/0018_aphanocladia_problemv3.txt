@@ -1,0 +1,10 @@
+alphabet,B A U C|[ ] + - / F f|B A U C|-1 -1 -1 -1
+generations,*
+axiom A
+table0,100
+parameters,
+#Name TableID Odds P L R Condition Successor
+rule0 0       100  B * * *         U[-C]UU[+/C/]U
+rule1 0       100  A * * *         BA
+rule2 0       100  U * * *         ffFFFF
+rule3 0       100  C * * *         FFfFFfFFfFF[-FFFF]fFFfFF[+FFF]fFFfFF[-FF]fFFf

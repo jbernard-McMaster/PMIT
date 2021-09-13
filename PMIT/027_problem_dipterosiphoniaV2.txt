@@ -1,0 +1,8 @@
+vocabulary,A B S C U|=>|[ ] + - / f F
+generations,*
+axiom,A
+rule0,*|*,B|=>|U [ - S ] U [ - C ]
+rule1,*|*,A|=>|B / B / A
+rule2,*|*,U|=>|f f F F F F
+rule3,*|*,S|=>|F F F F F F F F F
+rule4,*|*,C|=>|F f F [ - F F ] f F [ - F F ] f F [ + F F ] f F [ + F F ] f F [ - F F ] f F [ - F F ] f F

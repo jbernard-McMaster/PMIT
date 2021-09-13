@@ -1,0 +1,34 @@
+alphabet,a b c d e g h i j k l m n o p q r s t u v w x z A B C D|[ ] + -|Z Z Z Z Z Z Z Z Z Z Z Z Z Z Z Z Z Z Z Z Z Z Z Z Z Z Z Z|-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+generations,28
+axiom +ab
+table0,100
+parameters,
+#Name TableID Odds P L R Condition Successor
+rule0 0       100  c * * *         z[+k][-r]d
+rule1 0       100  z * * *         z
+rule2 0       100  k * * *         lm
+rule3 0       100  r * * *         st
+rule4 0       100  d * * *         z[+k][-r]e
+rule5 0       100  l * * *         l
+rule6 0       100  m * * *         n
+rule7 0       100  s * * *         s
+rule8 0       100  t * * *         u
+rule9 0       100  e * * *         z[+j]g
+rul10 0       100  n * * *         [-A]o
+rul11 0       100  u * * *         [+A]v
+rul12 0       100  j * * *         ab
+rul13 0       100  g * * *         z[+k][-r]h
+rul14 0       100  A * * *         B
+rul15 0       100  o * * *         [-B]p
+rul16 0       100  v * * *         [+B]w
+rul17 0       100  a * * *         a
+rul18 0       100  b * * *         c
+rul19 0       100  h * * *         z[+k][-r]i
+rul20 0       100  B * * *         C
+rul21 0       100  p * * *         [-C]q
+rul22 0       100  w * * *         [+C]x
+rul23 0       100  i * * *         z[-j]c
+rul24 0       100  C * * *         D
+rul25 0       100  q * * *         [-D]
+rul26 0       100  x * * *         [+D]
+rul27 0       100  D * * *         D

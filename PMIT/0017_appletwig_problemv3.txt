@@ -1,0 +1,21 @@
+alphabet,A B U W C V L K S P ( ) { } ~|! [ ] + - & ^ / \ F|A B U W C V L K S P ( ) { } ~|-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+generations,*
+axiom ---------///////////A
+table0,100
+parameters,
+#Name TableID Odds P L R Condition Successor
+ruleX 0       100  A * * *         \\\\\\\\\\B[---//BBBBBBBBBB))))U((((/////////[!!W]C]+BBBBBB))))UU(((([!!W]C
+rule0 0       100  B * * *         ))))UUU(((([&&&&&))))FFFF(((([!!W]C]////////
+rule1 0       100  U * * *         FFFFFF
+rule2 0       100  W * * *         ))[^^^V~L]////////[^^^V~L]////////[^^^V~L]////////[^^^VV^~L]////////[^^^VV^~L]////////[^^^VV^~L]
+rule3 0       100  C * * *         K[--K]////[--K]////[--K]////[--K]////[--K]
+rule4 0       100  V * * *         FFFF
+rule5 0       100  L * * *         [){+F-FF-F+!+F-FF-F}]
+rule6 0       100  K * * *         [!!))UUU(((/S////S////S////S////S]
+rule7 0       100  S * * *         [(^!FFFFFF][^^^^~P]
+rule8 0       100  P * * *         P
+rule9 0       100  ( * * *         (
+rul10 0       100  ) * * *         )
+rul11 0       100  { * * *         {
+rul12 0       100  } * * *         {
+rul13 0       100  ~ * * *         ~

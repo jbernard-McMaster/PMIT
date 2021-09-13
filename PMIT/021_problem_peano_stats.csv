@@ -1,0 +1,42 @@
+Avg Rule True Length = ,97, Avg Rule Compressed Length ,97
+# Drawing Rules   = ,0,# Producing Rules = ,2,# Terminal Rules  = ,0
+Symbol Pattern
+==============
+000,000,000,008,016,
+000,000,000,016,008,
+000,000,000,024,024,
+016,007,025,000,000,
+009,016,023,000,000,
+
+Compressed Symbol Pattern
+=========================
+000,048,
+048,096,
+
+Rule #00 Statistics
+===================
+Rule Pattern: ,1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 1G 1S 5G 1S 3G 1S 3G 1S 3G 1S 3G 1S 
+Compressed Pattern: ,SGSGSGSGSGSGSGSGSGSGSGSGSGSGSGSGSGSGSGSGSGSGSGSGS
+True Length: ,97 Compressed Length: 97
+Ratio Producing to Graphical = ,0.2577319
+# Repeated Symbols = ,0
+# G2P transitions = ,24
+# P2G transitions = ,24
+Unique Symbols: L,R,
+Unique Graphics: +,F,-,
+Is producer? ,True
+Produces producer? ,True
+
+Rule #01 Statistics
+===================
+Rule Pattern: ,1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 3G 1S 
+Compressed Pattern: ,SGSGSGSGSGSGSGSGSGSGSGSGSGSGSGSGSGSGSGSGSGSGSGSGS
+True Length: ,97 Compressed Length: 97
+Ratio Producing to Graphical = ,0.2577319
+# Repeated Symbols = ,0
+# G2P transitions = ,24
+# P2G transitions = ,24
+Unique Symbols: R,L,
+Unique Graphics: -,F,+,
+Is producer? ,True
+Produces producer? ,True

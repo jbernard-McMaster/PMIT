@@ -1,0 +1,8 @@
+-A+B+A
++B-A-B
+TAIL
+A+B+A-
+B-A-B+
+GENERAL
+
+

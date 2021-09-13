@@ -1,0 +1,3 @@
+X,X+YF
+X,X+YF+
+Y,-FX-Y

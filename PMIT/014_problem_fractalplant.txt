@@ -1,0 +1,5 @@
+vocabulary,F X|=>|- [ ] +
+generations,*
+axiom,X
+rule,*|*,X|=>|F - [ [ X ] + X ] + F [ + F X ] - X
+rule,*|*,F|=>|F F

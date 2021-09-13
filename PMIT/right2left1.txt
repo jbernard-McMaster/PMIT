@@ -1,0 +1,42 @@
+Right to Left Localization
+==========================
+
+8: A in wake from 26 to 26
+Localizing B < A > * Tail Fragment A / ABBBABA @ 26
+7: B in wake from 25 to 19
+Localizing A < B > A Max Fragment BABBBAB @ 25
+6: A in wake from 24 to 18
+Localizing B < A > B Max Fragment BBBABABBB @ 23
+Localizing B < A > B Max Fragment BBABABBB @ 23
+Localizing B < A > B Max Fragment BABABBB @ 23
+Localizing B < A > B Max Fragment BBBBBBBABA @ 20
+Localizing B < A > B Max Fragment BBBABA @ 20
+Localizing B < A > B Max Fragment ABBBBBBBBBA @ 18
+For SAC B < A > B max fragment ABBBBBBBBB is tabu
+5: B in wake from 22 to 7
+Localizing B < B > A Max Fragment BABABBBBBBBBB @ 17
+Localizing B < B > A Max Fragment BBBBBBBBB @ 17
+Localizing B < B > A Max Fragment BABABBB @ 11
+4: B in wake from 16 to 4
+Localizing B < B > B Max Fragment BBBBBBB @ 16
+Localizing B < B > B Max Fragment BBBBBBB @ 15
+Localizing B < B > B Max Fragment ABBBBBB @ 14
+Localizing B < B > B Max Fragment BABBBBB @ 13
+Localizing B < B > B Max Fragment BBABABB @ 10
+For SAC B < B > B max fragment BBBBABA is tabu
+For SAC B < B > B max fragment BBBBBBA is tabu
+3: B in wake from 15 to 3
+Localizing A < B > B Max Fragment BBBABABBB @ 11
+Localizing A < B > B Max Fragment BBBABAB @ 9
+For SAC A < B > B max fragment BBBBBBBBBABAB is tabu
+For SAC A < B > B max fragment BBBABAB is tabu
+2: A in wake from 10 to 2
+Localizing B < A > B Max Fragment BBBABA @ 8
+For SAC B < A > B max fragment ABBBBBBBBBA is tabu
+For SAC B < A > B max fragment BBBABABBB is tabu
+For SAC B < A > B max fragment BABABBB is tabu
+For SAC B < A > B max fragment BBBB is tabu
+1: B in wake from 7 to 2
+Localizing A < B > A Max Fragment BABBBAB @ 7
+0: A in wake from 6 to 0
+Localizing * < A > B Head Fragment A / ABABBBA @ 6

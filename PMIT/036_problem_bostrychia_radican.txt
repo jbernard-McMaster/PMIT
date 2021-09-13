@@ -1,0 +1,19 @@
+﻿vocabulary,D A B C R E H K L P Q T U X W Z|=>|[ ] + - f F
+generations,*
+axiom,F f D
+RULE01,*|*,D|=>|f [ + + + F f F f R f ] [ - f F ] f F f A
+RULE02,*|*,A|=>|F f F f F f F f [ + + + F f R ] [ - f F ] f F f B
+RULE03,*|*,B|=>|F f F f F f F f [ + + + F f R ] [ - f F ] f F f C
+RULE04,*|*,C|=>|F f F f F f F f [ + + + F f R ] [ - f F ] f F f K
+RULE05,*|*,R|=>|F f [ + F f F f U ] f F f F f E
+RULE06,*|*,E|=>|[ - F f F f X ] f F f F f H
+RULE07,*|*,H|=>|[ + F f F f W ] f F f F f Z F f
+RULE08,*|*,K|=>|F f F f F f [ + + + F f R ] [ - F f A ] f F f L
+RULE09,*|*,L|=>|F f F f F f [ + + + F f R ] [ - f F ] f F f P
+RULE10,*|*,P|=>|F f F f F f [ + + + F f R ] [ - f F ] f F f Q
+RULE11,*|*,Q|=>|F f F f F f T
+RULE12,*|*,T|=>|F f F f F f [ + + + F f R ] [ + F f A ] f F f A
+RULE13,*|*,U|=>|[ + F f F f F ] f F f
+RULE14,*|*,X|=>|[ - F f F f F ] f F f
+RULE15,*|*,W|=>|[ + F f F f F ] f F f
+RULE16,*|*,Z|=>|[ - F f F f F ] f F f

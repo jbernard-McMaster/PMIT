@@ -1,0 +1,15 @@
+vocabulary,A B C D E G H I J K L M|=>|[ ] + -
+generations,10
+axiom,A
+rule1,*|*,A|=>|A B C A B C
+rule2,*|*,B|=>|B C D B C D
+rule3,*|*,C|=>|C D E C D E
+rule4,*|*,D|=>|D E G D E G
+rule5,*|*,E|=>|E G H E G H
+rule6,*|*,G|=>|G H I G H I
+rule7,*|*,H|=>|H I J J I H
+rule8,*|*,I|=>|I J K J K I
+rule9,*|*,J|=>|J K L K L M
+rul10,*|*,K|=>|K A B K A B
+rul11,*|*,L|=>|L L L M M M
+rul12,*|*,M|=>|M D E M E G

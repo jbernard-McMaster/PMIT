@@ -1,0 +1,11 @@
+vocabulary,A F S L { } ' :|=>|[ ] + - !  ^  & f /
+generations,*
+axiom,A
+rule0,*|*,F|=>|S / / / / / F
+rule1,*|*,L|=>|[ ' ' ' ^ ^ { - f + f + f - : - f + f + f } ]
+rule2,*|*,A|=>|[ & F L ! A ] / / / / / ' [ & F L ! A ] / / / / / / / ' [ & F L ! A ]
+rule3,*|*,S|=>|F L
+rule4,*|*,{|=>|{
+rule5,*|*,}|=>|}
+rule6,*|*,'|=>|'
+rule7,*|*,:|=>|:

@@ -1,0 +1,111 @@
+
+Displaying MAO
+==============
+
+Total Min/Max Length All Successors: 9 / 9
+
+0, * < A > B * :001 / 007 : < 001A 000B > / < 003A 004B >
+Head: A / ABABBBA
+Max 0 : ABABBBA
+0, B < A > * * :001 / 007 : < 001A 000B > / < 003A 004B >
+Tail: A / ABBBABA
+Max 0 : ABBBABA
+0, A < B > A * :001 / 007 : < 000A 000B > / < 002A 005B >
+Max 0 : BABBBAB
+
+Total Min/Max Length All Successors: 16 / 25
+
+1, * < A > B * :001 / 007 : < 001A 000B > / < 003A 004B >
+Head: A / ABABBBA
+Max 0 : ABABBBA
+1, B < A > * * :001 / 007 : < 001A 000B > / < 003A 004B >
+Tail: A / ABBBABA
+Max 0 : ABBBABA
+1, B < A > B * :001 / 008 : < 000A 000B > / < 003A 006B >
+Max 0 : ABABBBBA
+Max 1 : ABBBBABA
+Max 2 : ABBBBABB
+Max 3 : BABBBBAB
+Max 4 : BBABABBB
+Max 5 : BBABBBBA
+Max 6 : BBBABABB
+Max 7 : ABBBA
+1, A < B > A * :001 / 007 : < 000A 000B > / < 002A 005B >
+Max 0 : BABBBAB
+1, A < B > B * :001 / 012 : < 000A 000B > / < 003A 009B >
+Max 0 : BBABABBBBABB
+Max 1 : BBBABABBBBAB
+1, B < B > A * :001 / 012 : < 000A 000B > / < 003A 009B >
+Max 0 : BABBBBABABBB
+Max 1 : BBABBBBABABB
+Max 2 : BABABBBBABB
+1, B < B > B * :001 / 009 : < 000A 000B > / < 003A 007B >
+Max 0 : ABABBBBAB
+Max 1 : BABABBBBA
+Max 2 : BABBBBABB
+Max 3 : BBABABBBB
+
+Total Min/Max Length All Successors: 14 / 61
+
+2, * < A > B * :001 / 007 : < 001A 000B > / < 003A 004B >
+Head: A / ABABBBA
+Max 0 : ABABBBA
+2, B < A > * * :001 / 007 : < 001A 000B > / < 003A 004B >
+Tail: A / ABBBABA
+Max 0 : ABBBABA
+2, B < A > B * :001 / 008 : < 000A 000B > / < 003A 006B >
+Max 0 : ABABBBBA
+Max 1 : ABBBBABA
+Max 2 : ABBBBABB
+Max 3 : BABBBBAB
+Max 4 : BBABABBB
+Max 5 : BBABBBBA
+Max 6 : BBBABABB
+Max 7 : ABBBA
+2, A < B > A * :001 / 007 : < 000A 000B > / < 002A 005B >
+Max 0 : BABBBAB
+2, A < B > B * :001 / 012 : < 000A 000B > / < 003A 009B >
+Max 0 : BBABABBBBABB
+Max 1 : BBBABABBBBAB
+2, B < B > A * :001 / 012 : < 000A 000B > / < 003A 009B >
+Max 0 : BABBBBABABBB
+Max 1 : BBABBBBABABB
+Max 2 : BABABBBBABB
+2, B < B > B * :001 / 009 : < 000A 000B > / < 003A 007B >
+Max 0 : ABABBBBAB
+Max 1 : BABABBBBA
+Max 2 : BABBBBABB
+Max 3 : BBABABBBB
+
+Total Min/Max Length All Successors: 14 / 62
+
+3, * < A > B * :001 / 007 : < 001A 000B > / < 003A 004B >
+Head: A / ABABBBA
+Max 0 : ABABBBA
+3, B < A > * * :001 / 007 : < 001A 000B > / < 003A 004B >
+Tail: A / ABBBABA
+Max 0 : ABBBABA
+3, B < A > B * :001 / 008 : < 000A 000B > / < 003A 006B >
+Max 0 : ABABBBBA
+Max 1 : ABBBBABA
+Max 2 : ABBBBABB
+Max 3 : BABBBBAB
+Max 4 : BBABABBB
+Max 5 : BBABBBBA
+Max 6 : BBBABABB
+Max 7 : ABBBA
+3, A < B > A * :001 / 007 : < 000A 000B > / < 002A 005B >
+Max 0 : BABBBAB
+3, A < B > B * :001 / 012 : < 000A 000B > / < 003A 009B >
+Max 0 : BBABABBBBABB
+Max 1 : BBBABABBBBAB
+3, B < B > A * :001 / 012 : < 000A 000B > / < 003A 009B >
+Max 0 : BABBBBABABBB
+Max 1 : BBABBBBABABB
+Max 2 : BABABBBBABB
+3, B < B > B * :001 / 009 : < 000A 000B > / < 003A 007B >
+Max 0 : ABABBBBAB
+Max 1 : BABABBBBA
+Max 2 : BABBBBABB
+Max 3 : BBABABBBB
+

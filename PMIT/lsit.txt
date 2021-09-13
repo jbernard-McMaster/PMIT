@@ -1,0 +1,4 @@
+algorithm,1
+problems,0032
+executions,10
+output,1

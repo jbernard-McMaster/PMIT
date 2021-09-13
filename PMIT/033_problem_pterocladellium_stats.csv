@@ -1,0 +1,498 @@
+Avg Rule True Length = ,5.035714, Avg Rule Compressed Length ,4.928571
+# Drawing Rules   = ,5,# Producing Rules = ,23,# Terminal Rules  = ,4
+Symbol Pattern
+==============
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,
+001,000,000,003,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,000,000,000,000,
+000,000,000,001,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,001,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+001,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,001,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,001,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,001,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,001,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,001,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,001,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,001,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,006,000,000,005,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,006,000,000,000,000,000,005,000,
+000,000,000,000,000,000,000,000,000,002,000,000,000,000,000,000,000,001,001,001,001,001,000,001,001,001,001,001,000,000,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,006,000,000,000,000,000,005,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+010,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,005,000,000,002,001,000,
+010,000,000,001,000,000,000,000,000,000,000,001,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+
+Compressed Symbol Pattern
+=========================
+005,024,
+017,063,
+
+Rule #00 Statistics
+===================
+Rule Pattern: ,1G 4S SB 1G 1S EB SB 1G 1S EB 2S 1G 1S 
+Compressed Pattern: ,GSBGSEBGSEGS
+True Length: ,17 Compressed Length: 17
+Ratio Producing to Graphical = ,0.5294118
+# Repeated Symbols = ,3
+# G2P transitions = ,5
+# P2G transitions = ,4
+Unique Symbols: d,e,m,c,
+Unique Graphics: F,[,+,],-,f,
+Is producer? ,True
+Produces producer? ,True
+
+Rule #01 Statistics
+===================
+Rule Pattern: ,1S 
+Compressed Pattern: ,S
+True Length: ,1 Compressed Length: 1
+Ratio Producing to Graphical = ,1
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: e,
+Unique Graphics: 
+Is producer? ,True
+Produces producer? ,True
+
+Rule #02 Statistics
+===================
+Rule Pattern: ,1S 
+Compressed Pattern: ,S
+True Length: ,1 Compressed Length: 1
+Ratio Producing to Graphical = ,1
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: g,
+Unique Graphics: 
+Is producer? ,True
+Produces producer? ,False
+
+Rule #03 Statistics
+===================
+Rule Pattern: ,2S 2G 
+Compressed Pattern: ,SG
+True Length: ,4 Compressed Length: 4
+Ratio Producing to Graphical = ,0.5
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,1
+Unique Symbols: n,o,
+Unique Graphics: f,F,
+Is producer? ,True
+Produces producer? ,True
+
+Rule #04 Statistics
+===================
+Rule Pattern: ,1S 
+Compressed Pattern: ,S
+True Length: ,1 Compressed Length: 1
+Ratio Producing to Graphical = ,1
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: j,
+Unique Graphics: 
+Is producer? ,True
+Produces producer? ,True
+
+Rule #05 Statistics
+===================
+Rule Pattern: ,2G 
+Compressed Pattern: ,G
+True Length: ,3 Compressed Length: 2
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: 
+Unique Graphics: f,F,
+Is producer? ,False
+Produces producer? ,False
+
+Rule #06 Statistics
+===================
+Rule Pattern: ,1S 
+Compressed Pattern: ,S
+True Length: ,1 Compressed Length: 1
+Ratio Producing to Graphical = ,1
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: p,
+Unique Graphics: 
+Is producer? ,True
+Produces producer? ,True
+
+Rule #07 Statistics
+===================
+Rule Pattern: ,1S 
+Compressed Pattern: ,S
+True Length: ,1 Compressed Length: 1
+Ratio Producing to Graphical = ,1
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: k,
+Unique Graphics: 
+Is producer? ,True
+Produces producer? ,True
+
+Rule #08 Statistics
+===================
+Rule Pattern: ,2G SB 1G 1S EB SB 1G 1S EB 1G 1G 
+Compressed Pattern: ,GBSEBGSEG
+True Length: ,12 Compressed Length: 12
+Ratio Producing to Graphical = ,0.1666667
+# Repeated Symbols = ,0
+# G2P transitions = ,2
+# P2G transitions = ,2
+Unique Symbols: A,H,
+Unique Graphics: f,F,[,-,],+,q,
+Is producer? ,True
+Produces producer? ,True
+
+Rule #09 Statistics
+===================
+Rule Pattern: ,1G 
+Compressed Pattern: ,G
+True Length: ,2 Compressed Length: 1
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: 
+Unique Graphics: F,
+Is producer? ,False
+Produces producer? ,False
+
+Rule #10 Statistics
+===================
+Rule Pattern: ,1S 1G 
+Compressed Pattern: ,SG
+True Length: ,2 Compressed Length: 2
+Ratio Producing to Graphical = ,0.5
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,1
+Unique Symbols: B,
+Unique Graphics: F,
+Is producer? ,True
+Produces producer? ,True
+
+Rule #11 Statistics
+===================
+Rule Pattern: ,1S 1G 
+Compressed Pattern: ,SG
+True Length: ,2 Compressed Length: 2
+Ratio Producing to Graphical = ,0.5
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,1
+Unique Symbols: I,
+Unique Graphics: F,
+Is producer? ,True
+Produces producer? ,False
+
+Rule #12 Statistics
+===================
+Rule Pattern: ,2G SB 1G 1S EB SB 1G 1S EB 1G 1G 
+Compressed Pattern: ,GBSEBGSEG
+True Length: ,12 Compressed Length: 12
+Ratio Producing to Graphical = ,0.1666667
+# Repeated Symbols = ,0
+# G2P transitions = ,2
+# P2G transitions = ,2
+Unique Symbols: B,I,
+Unique Graphics: f,F,[,-,],+,r,
+Is producer? ,True
+Produces producer? ,True
+
+Rule #13 Statistics
+===================
+Rule Pattern: ,3G 1S 
+Compressed Pattern: ,GS
+True Length: ,4 Compressed Length: 4
+Ratio Producing to Graphical = ,0.25
+# Repeated Symbols = ,0
+# G2P transitions = ,1
+# P2G transitions = ,0
+Unique Symbols: C,
+Unique Graphics: F,f,+,
+Is producer? ,True
+Produces producer? ,True
+
+Rule #14 Statistics
+===================
+Rule Pattern: ,3G 1S 
+Compressed Pattern: ,GS
+True Length: ,4 Compressed Length: 4
+Ratio Producing to Graphical = ,0.25
+# Repeated Symbols = ,0
+# G2P transitions = ,1
+# P2G transitions = ,0
+Unique Symbols: J,
+Unique Graphics: F,f,-,
+Is producer? ,True
+Produces producer? ,False
+
+Rule #15 Statistics
+===================
+Rule Pattern: ,2G SB 1G 1S EB SB 1G 1S EB 1G 1S 
+Compressed Pattern: ,GBSEBGSEGS
+True Length: ,12 Compressed Length: 12
+Ratio Producing to Graphical = ,0.25
+# Repeated Symbols = ,0
+# G2P transitions = ,3
+# P2G transitions = ,2
+Unique Symbols: C,J,s,
+Unique Graphics: f,F,[,-,],+,
+Is producer? ,True
+Produces producer? ,True
+
+Rule #16 Statistics
+===================
+Rule Pattern: ,3G 1S 
+Compressed Pattern: ,GS
+True Length: ,4 Compressed Length: 4
+Ratio Producing to Graphical = ,0.25
+# Repeated Symbols = ,0
+# G2P transitions = ,1
+# P2G transitions = ,0
+Unique Symbols: D,
+Unique Graphics: F,f,+,
+Is producer? ,True
+Produces producer? ,True
+
+Rule #17 Statistics
+===================
+Rule Pattern: ,3G 1S 
+Compressed Pattern: ,GS
+True Length: ,4 Compressed Length: 4
+Ratio Producing to Graphical = ,0.25
+# Repeated Symbols = ,0
+# G2P transitions = ,1
+# P2G transitions = ,0
+Unique Symbols: K,
+Unique Graphics: F,f,-,
+Is producer? ,True
+Produces producer? ,False
+
+Rule #18 Statistics
+===================
+Rule Pattern: ,2G SB 1G 1S EB SB 1G 1S EB 1G 1G 
+Compressed Pattern: ,GBSEBGSEG
+True Length: ,12 Compressed Length: 12
+Ratio Producing to Graphical = ,0.1666667
+# Repeated Symbols = ,0
+# G2P transitions = ,2
+# P2G transitions = ,2
+Unique Symbols: D,K,
+Unique Graphics: f,F,[,-,],+,t,
+Is producer? ,True
+Produces producer? ,True
+
+Rule #19 Statistics
+===================
+Rule Pattern: ,3G 1S 
+Compressed Pattern: ,GS
+True Length: ,4 Compressed Length: 4
+Ratio Producing to Graphical = ,0.25
+# Repeated Symbols = ,0
+# G2P transitions = ,1
+# P2G transitions = ,0
+Unique Symbols: E,
+Unique Graphics: F,f,+,
+Is producer? ,True
+Produces producer? ,True
+
+Rule #20 Statistics
+===================
+Rule Pattern: ,3G 1S 
+Compressed Pattern: ,GS
+True Length: ,4 Compressed Length: 4
+Ratio Producing to Graphical = ,0.25
+# Repeated Symbols = ,0
+# G2P transitions = ,1
+# P2G transitions = ,0
+Unique Symbols: L,
+Unique Graphics: F,f,-,
+Is producer? ,True
+Produces producer? ,True
+
+Rule #21 Statistics
+===================
+Rule Pattern: ,2G SB 1G 1S EB SB 1G 1S EB 1G 
+Compressed Pattern: ,GBSEBGSEG
+True Length: ,11 Compressed Length: 11
+Ratio Producing to Graphical = ,0.1818182
+# Repeated Symbols = ,0
+# G2P transitions = ,2
+# P2G transitions = ,2
+Unique Symbols: E,L,
+Unique Graphics: f,F,[,-,],+,
+Is producer? ,True
+Produces producer? ,True
+
+Rule #22 Statistics
+===================
+Rule Pattern: ,3G 1S 
+Compressed Pattern: ,GS
+True Length: ,4 Compressed Length: 4
+Ratio Producing to Graphical = ,0.25
+# Repeated Symbols = ,0
+# G2P transitions = ,1
+# P2G transitions = ,0
+Unique Symbols: G,
+Unique Graphics: F,f,+,
+Is producer? ,True
+Produces producer? ,True
+
+Rule #23 Statistics
+===================
+Rule Pattern: ,3G 1S 
+Compressed Pattern: ,GS
+True Length: ,4 Compressed Length: 4
+Ratio Producing to Graphical = ,0.25
+# Repeated Symbols = ,0
+# G2P transitions = ,1
+# P2G transitions = ,0
+Unique Symbols: M,
+Unique Graphics: F,f,-,
+Is producer? ,True
+Produces producer? ,False
+
+Rule #24 Statistics
+===================
+Rule Pattern: ,3G 
+Compressed Pattern: ,G
+True Length: ,3 Compressed Length: 3
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: 
+Unique Graphics: F,f,+,
+Is producer? ,False
+Produces producer? ,False
+
+Rule #25 Statistics
+===================
+Rule Pattern: ,3G 
+Compressed Pattern: ,G
+True Length: ,3 Compressed Length: 3
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: 
+Unique Graphics: F,f,-,
+Is producer? ,False
+Produces producer? ,False
+
+Rule #26 Statistics
+===================
+Rule Pattern: ,3G 
+Compressed Pattern: ,G
+True Length: ,4 Compressed Length: 3
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: 
+Unique Graphics: +,F,f,
+Is producer? ,False
+Produces producer? ,False
+
+Rule #27 Statistics
+===================
+Rule Pattern: ,1S 
+Compressed Pattern: ,S
+True Length: ,1 Compressed Length: 1
+Ratio Producing to Graphical = ,1
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: c,
+Unique Graphics: 
+Is producer? ,True
+Produces producer? ,True
+
+Rule #28 Statistics
+===================
+Rule Pattern: ,1G 
+Compressed Pattern: ,G
+True Length: ,1 Compressed Length: 1
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: 
+Unique Graphics: q,
+Is producer? ,False
+Produces producer? ,False
+
+Rule #29 Statistics
+===================
+Rule Pattern: ,1G 
+Compressed Pattern: ,G
+True Length: ,1 Compressed Length: 1
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: 
+Unique Graphics: r,
+Is producer? ,False
+Produces producer? ,False
+
+Rule #30 Statistics
+===================
+Rule Pattern: ,1G 
+Compressed Pattern: ,G
+True Length: ,1 Compressed Length: 1
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: 
+Unique Graphics: t,
+Is producer? ,False
+Produces producer? ,False
+
+Rule #31 Statistics
+===================
+Rule Pattern: ,1G 
+Compressed Pattern: ,G
+True Length: ,1 Compressed Length: 1
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: 
+Unique Graphics: w,
+Is producer? ,False
+Produces producer? ,False

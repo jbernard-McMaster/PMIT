@@ -1,0 +1,5 @@
+vocabulary,0 1|=>|[ ]
+generations,*
+axiom,0
+rule,*|*,1|=>|1 1
+rule,*|*,0|=>|1 [ 0 ] 0

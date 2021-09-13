@@ -1,0 +1,7 @@
+vocabulary,A B C D|=>|- + F & ^ / !
+generations,*
+axiom,A
+rule1,A|=>|B - F + C F C + F - D & F ^ D - F + & & C F C + F + B / / 
+rule2,B|=>|A & F ^ C F B ^ F ^ D ^ ^ - F - D ^ ! F ^ B ! F C ^ F ^ A / / 
+rule3,C|=>|! D ^ ! F ^ B - F + C ^ F ^ A & & F A & F ^ C + F + B ^ F ^ D / / 
+rule4,D|=>|! C F B - F + B ! F A & F ^ A & & F B - F + B ! F C / / 

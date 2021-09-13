@@ -1,0 +1,1485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Beliefs">
+      <UniqueIdentifier>{bfebdf9b-2d45-4bcf-ad75-088f1fa08088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Phase 2A">
+      <UniqueIdentifier>{fe965b8a-f4b8-4c2f-a30c-d24f260f592b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base">
+      <UniqueIdentifier>{e0437b19-4421-40bb-b2bb-bbd57798e816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Phase 1">
+      <UniqueIdentifier>{cc2c89b0-0840-46c1-bd33-4f616f29b685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Obsolete">
+      <UniqueIdentifier>{17c346dd-e2b1-4570-ba38-a537b3863d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fitness Functions">
+      <UniqueIdentifier>{be26fb7f-21ff-4dd0-97fc-47a9763131bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Phase 3">
+      <UniqueIdentifier>{0d3c872d-244a-4331-adf9-70b467053c8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MathParser">
+      <UniqueIdentifier>{2bc3207b-cb9f-4fd3-9229-6c34a5a1b2e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\V3">
+      <UniqueIdentifier>{a0220747-034f-4c90-93b8-4db9614487d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\V1_V2">
+      <UniqueIdentifier>{85ed492f-9336-47db-9c69-2cf165863181}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="configuration.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="lsit.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="0001_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0002_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0003_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0004_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0005_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0006_algae_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0007_cantordust_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0008_kochcurve_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0009_dragoncurve_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0010_fractaltree_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0011_pythogorastree_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0012_sierpenskitriangle1_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0013_sierpenskitriangle2_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="9xx_problem_hilbert.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="010_fragment_algae.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="010_lexicon_algae.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="010_lexiconMO_algae.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="010_problem_algae.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="011_fragment_cantordust.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="011_lexicon_cantordust.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="011_lexiconMO_cantordust.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="011_problem_cantordust.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="012_fragment_kochcurve.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="012_lexicon_kochcurve.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="012_lexiconMO_kochcurve.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="012_problem_kochcurve.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="013_fragment_dragoncurve.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="013_lexicon_dragoncurve.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="013_lexiconMO_dragoncurve.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="013_problem_dragoncurve.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="0014_gospercurve_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="014_fragment_fractalplant.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="014_lexicon_fractalplant.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="014_lexiconMO_fractalplant.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="014_problem_fractalplant.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="0015_ecurve_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0016_peano_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="015_fragment_pythagorastree.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="015_lexicon_pythagorastree.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="015_lexiconMO_pythagorastree.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="015_problem_pythagorastree.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="016_fragment_sierpenskitriangle.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="016_lexicon_sierpenskitriangle.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="016_lexiconMO_sierpenskitriangle.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="016_problem_sierpenskitriangle.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="0017_appletwig_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0017_bushlike_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0018_aphanocladia_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="017_fragment_sierpenskitriangle2.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="017_lexicon_sierpenskitriangle2.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="017_lexiconMO_sierpenskitriangle2.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="017_problem_sierpenskitriangle2.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="018_fragment_gospercurve1.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="018_lexicon_gospercurve1.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="018_lexiconMO_gospercurve1.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="018_problem_gospercurve1.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="0019_dipterosiphonia1_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0020_dipterosiphonia2_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="020_fragment_ecurve.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="020_lexicon_ecurve.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="020_lexiconMO_ecurve.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="020_problem_ecurve.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="0021_ditria_reptans_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="021_fragment_peano.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="021_lexicon_peano.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="021_lexiconMO_peano.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="021_problem_peano.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="0022_ditria_zonaricola_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0023_herpopteros_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0024_herposiphonia_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="022_fragment_appletwig.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="022_lexicon_appletwig.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="022_lexiconMO_appletwig.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="022_problem_appletwig.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="024_fragment_bushlike_simplified.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="024_lexicon_bushlike_simplified.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="024_problem_bushlike_simplified.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="0027_tenuissimum_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0026_pterocladellium_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0025_metamorphe_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0028_fern_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0029_bostrychia_radican_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="025_fragment_aphanocladia.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="025_lexicon_aphanocladia.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="025_lexiconMO_aphanocladia.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="025_problem_aphanocladia.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="026_fragment_dipterosiphoniaV1.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="026_lexicon_dipterosiphoniaV1.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="026_lexiconMO_dipterosiphoniaV1.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="026_problem_dipterosiphoniaV1.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="027_fragment_dipterosiphoniaV2.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="027_lexicon_dipterosiphoniaV2.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="027_lexiconMO_dipterosiphoniaV2.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="027_problem_dipterosiphoniaV2.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="028_fragment_ditira_reptans.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="028_lexicon_ditira_reptans.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="028_lexiconMO_ditira_reptans.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="028_problem_ditira_reptans.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="029_fragment_ditira_zonaricola.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="029_lexicon_ditira_zonaricola.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="029_lexiconMO_ditira_zonaricola.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="029_problem_ditira_zonaricola.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="030_fragment_herpopteros.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="030_lexicon_herpopteros.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="030_lexiconMO_herpopteros.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="030_problem_herpopteros.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="031_fragment_herposiphonia.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="031_lexicon_herposiphonia.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="031_lexiconMO_herposiphonia.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="031_problem_herposiphonia.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="032_fragment_metamorphe.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="032_lexicon_metamorphe.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="032_lexiconMO_metamorphe.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="032_problem_metamorphe.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="033_fragment_pterocladellium.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="033_lexicon_pterocladellium.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="033_lexiconMO_pterocladellium.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="033_problem_pterocladellium.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="034_fragment_tenuissimum.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="034_lexicon_tenuissimum.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="034_lexiconMO_tenuissimum.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="034_problem_tenuissimum.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="035_problem_fern.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="036_problem_bostrychia_radican.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="099_problem_random1.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="113_fragment_dragoncurve.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="113_lexicon_dragoncurve.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="113_problem_dragoncurve.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="121_fragment_peano.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="121_lexicon_peano.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="121_problem_peano.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="122_fragment_appletwig.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="122_lexicon_appletwig.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="122_problem_appletwig.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="124_lexicon_bushlike_simplified.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="124_problem_bushlike_simplified.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="125_fragment_aphanocladia.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="125_lexicon_aphanocladia.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="125_problem_aphanocladia.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="126_fragment_dipterosiphoniaV1.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="126_lexicon_dipterosiphoniaV1.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="126_problem_dipterosiphoniaV1.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="127_fragment_dipterosiphoniaV2.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="127_lexicon_dipterosiphoniaV2.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="127_problem_dipterosiphoniaV2.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="128_fragment_ditira_reptans.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="128_lexicon_ditira_reptans.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="128_problem_ditira_reptans.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="129_fragment_ditira_zonaricola.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="129_lexicon_ditira_zonaricola.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="129_problem_ditira_zonaricola.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="130_fragment_herpopteros.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="130_lexicon_herpopteros.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="130_problem_herpopteros.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="131_fragment_herposiphonia.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="131_lexicon_herposiphonia.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="131_problem_herposiphonia.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="132_fragment_metamorphe.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="132_lexicon_metamorphe.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="132_problem_metamorphe.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="133_fragment_pterocladellium.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="133_lexicon_pterocladellium.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="133_problem_pterocladellium.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="134_fragment_tenuissimum.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="134_lexicon_tenuissimum.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="134_problem_tenuissimum.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="310_problem_algae2.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="311_problem_cantordust2.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="312_problem_kochcurve.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="810_problem_algae3.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="910_problem_algae4.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="923_problem_bushlike.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="0100_wolfram30_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="MAO_working_Aug20.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="MAO.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="MAO_working_aug22nd.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="localization.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="left2right_1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="left2right_2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="left2right_0.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="right2left1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="right2left2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="right2left0.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="0030_algae_s0l_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0101_wolfram110_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0102_wolfram_3symbol_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0103_wolfram_4symbol_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0104_wolfram_5symbol_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0031_s0l_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0032_s0l_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0033_s0l_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0200_lik_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0201_lik_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="098_problem_limittest.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="097_problem_lowlimit.txt">
+      <Filter>Resource Files\V1_V2</Filter>
+    </Text>
+    <Text Include="0034_s0l_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0035_s0l_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0300_d2l_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0301_d2l_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0409_hd0l_dragoncurve_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0407_hd0l_cantordust_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0406_hd0l_algae_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0418_hd0l_aphanocladia_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0410_fractaltree_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0411_pythogorastree_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0412_sierpenskitriangle1_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0413_sierpenskitriangle2_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0414_gospercurve_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0415_ecurve_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0416_peano_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0417_appletwig_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0418_bushlike_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0430_bostrychia_radican_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0429_fernlike_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0428_tenuissimum_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0427_pterocladellium_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0426_metamorphe_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0425_herposiphonia_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0424_herpopteros_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0423_ditria_conaricola_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0422_ditria_reptans_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0420_dipterosiphonia1_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0419_aphanocladia_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0421_dipterosiphonia2_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0307_d2l_cantordust_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0306_d2l_algae_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0317_d2l_apple_twig_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0316_d2l_peano_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0315_d2l_ecurve_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0314_d2l_gospercurve_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0313_d2l_sierpenskitriangle2_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0312_d2l_siepenskitriangle1_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0311_d2l_pythogorastree_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0310_d2l_fractaltree_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0309_d2l_dragoncurve_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0308_d2l_kochcurve_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0318_d2l_fibonacci_bush_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0319_d2l_aphanocladia_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0320_d2l_dipterosiphonia1_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0321_d2l_dipterosiphonia2_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0322_d2l_ditria_reptans_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0323_d2l_ditria_zonaricola_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0324_d2l_herpopteros_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0325_d2l_heposiphonia_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0326_d2l_metamorphe_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0327_d2l_pterocladellium_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0328_d2l_tenuissimum_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0329_d2l_fern_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0330_d2l_bostrychia_radican_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0331_d2l_senstree_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0332_d2l_mycelis_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0333_d2l_shrub_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0431_hd0l_mystery_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0432_hd0l_mystery_problemv3.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+    <Text Include="0036_japanese_cypress.txt">
+      <Filter>Resource Files\V3</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblemV2.h">
+      <Filter>Header Files\Phase 2A</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblemV2A.h">
+      <Filter>Header Files\Phase 2A</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsistencyItem.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsistencyTable.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="EvidenceFactory.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexicon.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ParikhEquation.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="PlantModel.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="PlantModelStochastic.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIException.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIPerformanceMetrics.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblem.h">
+      <Filter>Header Files\Phase 1</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblem_Direct.h">
+      <Filter>Header Files\Phase 1</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblem_Directv2.h">
+      <Filter>Header Files\Phase 1</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblem_Directv3.h">
+      <Filter>Header Files\Phase 1</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblem_ECC.h">
+      <Filter>Header Files\Phase 1</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblem_FSM.h">
+      <Filter>Header Files\Phase 1</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblem_Lengthv1.h">
+      <Filter>Header Files\Phase 1</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblem_LengthV2.h">
+      <Filter>Header Files\Phase 1</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblem_Math.h">
+      <Filter>Header Files\Phase 1</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblem_Order.h">
+      <Filter>Header Files\Phase 1</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblem_PoG.h">
+      <Filter>Header Files\Phase 1</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblem_PoL.h">
+      <Filter>Header Files\Phase 1</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblem_Search.h">
+      <Filter>Header Files\Phase 1</Filter>
+    </ClInclude>
+    <ClInclude Include="Belief_ConsistentRules.h">
+      <Filter>Header Files\Beliefs</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneticAlgorithmPMIT.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GenomePMIT_Length.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProcessor.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="PMITemplateProblem.h">
+      <Filter>Header Files\Obsolete</Filter>
+    </ClInclude>
+    <ClInclude Include="PMITemplateProblem_Axiom.h">
+      <Filter>Header Files\Obsolete</Filter>
+    </ClInclude>
+    <ClInclude Include="PMITemplateProblem_Constants.h">
+      <Filter>Header Files\Obsolete</Filter>
+    </ClInclude>
+    <ClInclude Include="PMITemplateProblem_Modules.h">
+      <Filter>Header Files\Obsolete</Filter>
+    </ClInclude>
+    <ClInclude Include="PMISolution.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Vocabulary.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="TabuItem.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Successor.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Symbol.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RPTChange.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Word.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ProblemState.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblemSet.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblemDescriptor.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductionRule.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductionRuleConstraint.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductionRuleStochastic.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblemV2A_PoG_v1.h">
+      <Filter>Header Files\Phase 2A</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIFitnessFunction.h">
+      <Filter>Header Files\Fitness Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIFitnessFunction_Positional.h">
+      <Filter>Header Files\Fitness Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProcessor_V2A.h">
+      <Filter>Header Files\Phase 2A</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblemV2A_PoG_v2.h">
+      <Filter>Header Files\Phase 2A</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblemV2A_D_v3.h">
+      <Filter>Header Files\Phase 2A</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblemV2A_L_v2.h">
+      <Filter>Header Files\Phase 2A</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblemV2A_ML.h">
+      <Filter>Header Files\Phase 2A</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIFitnessFunction_Parikh.h">
+      <Filter>Header Files\Fitness Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblemV2A_PoG_v1b.h">
+      <Filter>Header Files\Phase 2A</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblemV2A_Lex_v1.h">
+      <Filter>Header Files\Phase 2A</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblemV2A_Lex_v1b.h">
+      <Filter>Header Files\Phase 2A</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblemV2A_Parikh.h">
+      <Filter>Header Files\Phase 2A</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblemV2A_PoL_v1.h">
+      <Filter>Header Files\Phase 2A</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblemV2A_D_v4.h">
+      <Filter>Header Files\Phase 2A</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblemV2A_PoL_v1b.h">
+      <Filter>Header Files\Phase 2A</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblemV2A_Rule.h">
+      <Filter>Header Files\Phase 2A</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIRandomModelGenerator.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="AlphabetV3.h">
+      <Filter>Header Files\Phase 3</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductionRuleV3.h">
+      <Filter>Header Files\Phase 3</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductionTableV3.h">
+      <Filter>Header Files\Phase 3</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelV3.h">
+      <Filter>Header Files\Phase 3</Filter>
+    </ClInclude>
+    <ClInclude Include="EvidenceFactoryV3.h">
+      <Filter>Header Files\Phase 3</Filter>
+    </ClInclude>
+    <ClInclude Include="LSIProblemV3.h">
+      <Filter>Header Files\Phase 3</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProcessorV3.h">
+      <Filter>Header Files\Phase 3</Filter>
+    </ClInclude>
+    <ClInclude Include="WordV3.h">
+      <Filter>Header Files\Phase 3</Filter>
+    </ClInclude>
+    <ClInclude Include="MasterAnalysisObject.h">
+      <Filter>Header Files\Phase 3</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblemV1E_D_v1.h">
+      <Filter>Header Files\Phase 2A</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblemV1E_D_v2.h">
+      <Filter>Header Files\Phase 2A</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIProblemV2_V1Emulator.h">
+      <Filter>Header Files\Phase 2A</Filter>
+    </ClInclude>
+    <ClInclude Include="variablelist.h">
+      <Filter>Header Files\MathParser</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>Header Files\MathParser</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Header Files\MathParser</Filter>
+    </ClInclude>
+    <ClInclude Include="mathparser.h">
+      <Filter>Header Files\MathParser</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>Header Files\MathParser</Filter>
+    </ClInclude>
+    <ClInclude Include="PMIModelGeneratorV3.h">
+      <Filter>Header Files\Phase 3</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductionRuleCondition.h">
+      <Filter>Header Files\Phase 3</Filter>
+    </ClInclude>
+    <ClInclude Include="FactCounter.h">
+      <Filter>Header Files\Phase 3</Filter>
+    </ClInclude>
+    <ClInclude Include="S0LProblemV3.h">
+      <Filter>Header Files\Phase 3</Filter>
+    </ClInclude>
+    <ClInclude Include="EDCProblemV3.h">
+      <Filter>Header Files\Phase 3</Filter>
+    </ClInclude>
+    <ClInclude Include="Fragment.h">
+      <Filter>Header Files\Phase 3</Filter>
+    </ClInclude>
+    <ClInclude Include="LSIProblemV3_Wolfram.h">
+      <Filter>Header Files\Phase 3</Filter>
+    </ClInclude>
+    <ClInclude Include="EDCProblemV3_SuccessorSearch.h">
+      <Filter>Header Files\Phase 3</Filter>
+    </ClInclude>
+    <ClInclude Include="LiKProblem.h">
+      <Filter>Header Files\Phase 3</Filter>
+    </ClInclude>
+    <ClInclude Include="D2LProblemV3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HD0LProblemV3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BruteForceSearchR_Dbl_PMIT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="S0LMProblemV3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PMIT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Symbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductionRule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlantModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProcessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vocabulary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneticAlgorithmPMIT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMITemplateProblem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMITemplateProblem_Modules.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMITemplateProblem_Constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMITemplateProblem_Axiom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblem_Order.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblemDescriptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvidenceFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblemSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductionRuleConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Belief_ConsistentRules.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RPTChange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TabuItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblem_Direct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblem_Math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GenomePMIT_Length.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblem_ECC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParikhEquation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblem_Search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMISolution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblem_FSM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProblemState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblem_Directv2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblem_Directv3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIPerformanceMetrics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsistencyItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsistencyTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductionRuleStochastic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Successor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlantModelStochastic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblem_PoL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblem_Lengthv1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblem_PoG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblem_LengthV2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblemV2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Word.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexicon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblemV2A.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProcessor_V2A.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIFitnessFunction_Positional.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblemV2A_PoG_v1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblemV2A_PoG_v2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblemV2A_ML.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblemV2A_D_v3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblemV2A_L_v2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIFitnessFunction_Parikh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblemV2A_PoG_v1b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblemV2A_Lex_v1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblemV2A_Lex_v1b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblemV2A_Parikh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblemV2A_Rule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblemV2A_PoL_v1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblemV2A_PoL_v1b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblemV2A_D_v4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIRandomModelGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AlphabetV3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductionRuleV3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductionTableV3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelV3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvidenceFactoryV3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WordV3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProcessorV3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MasterAnalysisObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LSIProblemV3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductionRuleCondition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblemV2_V1Emulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblemV1E_D_v1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIProblemV1E_D_v2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMIModelGeneratorV3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mathparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="variablelist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FactCounter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fragment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="S0LProblemV3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LSIProblemV3_Wolfram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EDCProblemV3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EDCProblemV3_SuccessorSearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LiKProblem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D2LProblemV3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HD0LProblemV3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BruteForceSearchR_Dbl_PMIT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="S0LMProblemV3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fractal_style_stats1.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PDcombined_style_stats2.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PDseparated_style_stats3.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="010_problem_algae_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="011_problem_cantordust_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="012_problem_kochcurve_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="013_problem_dragoncurve_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="014_problem_fractalplant_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="015_problem_pythagorastree_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="016_problem_sierpenskitriangle_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="017_problem_sierpenskitriangle2_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="018_problem_gospercurve1_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="020_problem_ecurve_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="021_problem_peano_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="022_problem_appletwig_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="024_problem_bushlike_simplified_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="025_problem_aphanocladia_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="026_problem_dipterosiphoniaV1_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="027_problem_dipterosiphoniaV2_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="028_problem_ditira_reptans_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="029_problem_ditira_zonaricola_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="030_problem_herpopteros_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="031_problem_herposiphonia_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="032_problem_metamorphe_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="033_problem_pterocladellium_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="034_problem_tenuissimum_stats.csv">
+      <Filter>Resource Files\V1_V2</Filter>
+    </None>
+    <None Include="wolfram_1symbol.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

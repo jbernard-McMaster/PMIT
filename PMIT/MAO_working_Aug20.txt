@@ -1,0 +1,130 @@
+Displaying MAO
+==============
+
+Total Min/Max Length All Successors: 9 / 9
+
+0, * < A > B * : 001 / 007 : < 001A 000B > / < 003A 004B >
+Head: A / ABABBBA
+Max 0 : ABABBBA
+0, B < A > * * : 001 / 007 : < 001A 000B > / < 003A 004B >
+Tail: A / ABBBABA
+Max 0 : ABBBABA
+0, A < B > A * : 001 / 007 : < 000A 000B > / < 002A 005B >
+Max 0 : BABBBAB
+
+Total Min/Max Length All Successors: 16 / 25
+
+1, * < A > B * : 001 / 007 : < 001A 000B > / < 003A 004B >
+Head: A / ABABBBA
+Max 0 : ABABBBA
+1, B < A > * * : 001 / 007 : < 001A 000B > / < 003A 004B >
+Tail: A / ABBBABA
+Max 0 : ABBBABA
+1, B < A > B * : 001 / 010 : < 000A 000B > / < 002A 009B >
+Max 0 : BBBBBBBBBABABBBA
+Max 1 : ABABBBBBBBBB
+Max 2 : ABBBBBBBBBA
+Max 3 : ABABBBBBBB
+Max 4 : ABBBBBBBBB
+Max 5 : BABBBBBBBB
+Max 6 : BBBBBBBABA
+Max 7 : BBBBBBBBAB
+Max 8 : BBBBBBBBBA
+Max 9 : ABABBBBBB
+Max 10 : BBBABABBB
+Max 11 : BBBBBBBBB
+Max 12 : ABABBBBB
+Max 13 : BBABABBB
+Max 14 : ABABBBA
+Max 15 : ABABBBB
+Max 16 : BABABBB
+Max 17 : ABABBB
+Max 18 : BBBABA
+Max 19 : BBBBBB
+Max 20 : BBBBB
+Max 21 : BBBB
+Max 22 : BBB
+1, A < B > A * : 001 / 007 : < 000A 000B > / < 002A 005B >
+Max 0 : BABBBAB
+1, A < B > B * : 001 / 015 : < 000A 000B > / < 002A 013B >
+Max 0 : BBBABABBBBBBBBB
+Max 1 : BBBBBBBBBABAB
+Max 2 : BBBABABBB
+Max 3 : BBBBBBBBB
+Max 4 : BBBABAB
+1, B < B > A * : 001 / 015 : < 000A 000B > / < 002A 013B >
+Max 0 : BBBBBBBBBABABBB
+Max 1 : BABABBBBBBBBB
+Max 2 : BBBABABBB
+Max 3 : BBBBBBBBB
+Max 4 : BABABBB
+1, B < B > B * : 001 / 007 : < 000A 000B > / < 001A 007B >
+Max 0 : ABABBBB
+Max 1 : ABBBBBB
+Max 2 : BABABBB
+Max 3 : BABBBBB
+Max 4 : BBABABB
+Max 5 : BBBABAB
+Max 6 : BBBBABA
+Max 7 : BBBBBAB
+Max 8 : BBBBBBA
+Max 9 : BBBBBBB
+
+Total Min/Max Length All Successors: 13 / 61
+
+2, * < A > B * : 001 / 007 : < 001A 000B > / < 003A 004B >
+Head: A / ABABBBA
+Max 0 : ABABBBA
+2, B < A > * * : 001 / 007 : < 001A 000B > / < 003A 004B >
+Tail: A / ABBBABA
+Max 0 : ABBBABA
+2, B < A > B * : 001 / 010 : < 000A 000B > / < 002A 009B >
+Max 0 : BBBBBBBBBABABBBA
+Max 1 : ABABBBBBBBBB
+Max 2 : ABBBBBBBBBA
+Max 3 : ABABBBBBBB
+Max 4 : ABBBBBBBBB
+Max 5 : BABBBBBBBB
+Max 6 : BBBBBBBABA
+Max 7 : BBBBBBBBAB
+Max 8 : BBBBBBBBBA
+Max 9 : ABABBBBBB
+Max 10 : BBBABABBB
+Max 11 : BBBBBBBBB
+Max 12 : ABABBBBB
+Max 13 : BBABABBB
+Max 14 : ABABBBA
+Max 15 : ABABBBB
+Max 16 : BABABBB
+Max 17 : ABABBB
+Max 18 : BBBABA
+Max 19 : BBBBBB
+Max 20 : BBBBB
+Max 21 : BBBB
+Max 22 : BBB
+2, A < B > A * : 001 / 007 : < 000A 000B > / < 002A 005B >
+Max 0 : BABBBAB
+2, A < B > B * : 001 / 015 : < 000A 000B > / < 002A 013B >
+Max 0 : BBBABABBBBBBBBB
+Max 1 : BBBBBBBBBABAB
+Max 2 : BBBABABBB
+Max 3 : BBBBBBBBB
+Max 4 : BBBABAB
+2, B < B > A * : 001 / 015 : < 000A 000B > / < 002A 013B >
+Max 0 : BBBBBBBBBABABBB
+Max 1 : BABABBBBBBBBB
+Max 2 : BBBABABBB
+Max 3 : BBBBBBBBB
+Max 4 : BABABBB
+2, B < B > B * : 001 / 007 : < 000A 000B > / < 001A 007B >
+Max 0 : ABABBBB
+Max 1 : ABBBBBB
+Max 2 : BABABBB
+Max 3 : BABBBBB
+Max 4 : BBABABB
+Max 5 : BBBABAB
+Max 6 : BBBBABA
+Max 7 : BBBBBAB
+Max 8 : BBBBBBA
+Max 9 : BBBBBBB
+

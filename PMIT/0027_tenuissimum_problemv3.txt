@@ -1,0 +1,37 @@
+alphabet,a b c d e g h i j k l m n o p A B C D E G H I J K L M N O P Q|[ ] + - f F|a b c d e g h i j k l m n o p A B C D E G H I J K L M N O P Q|-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+generations,*
+axiom +abF
+table0,100
+parameters,
+#Name TableID Odds P L R Condition Successor
+rule0 0       100  c * * *         FFFQ[+A][-I]FFfd
+rule1 0       100  Q * * *         FQ
+rule2 0       100  A * * *         BCfFFF
+rule3 0       100  I * * *         JKfFFF
+rule4 0       100  d * * *         +FFFQ[+A][-I]FFfe
+rule5 0       100  B * * *         fF
+rule6 0       100  C * * *         D
+rule7 0       100  J * * *         fF
+rule8 0       100  K * * *         L
+rule9 0       100  e * * *         FFFQ[+A][-I]FFfg
+rul10 0       100  D * * *         fFFFE
+rul11 0       100  L * * *         fFFFM
+rul12 0       100  g * * *         -FFFQ[+A][-I]FFfh
+rul13 0       100  E * * *         fFF[-P]FG
+rul14 0       100  M * * *         fFF[+P]FN
+rul15 0       100  h * * *         FFFQ[+A][-I]FFfi
+rul16 0       100  P * * *         fFfF
+rul17 0       100  G * * *         fFF[-P]FH
+rul18 0       100  N * * *         fFF[+P]FO
+rul19 0       100  i * * *         FFFQ[+fp]FFfj
+rul20 0       100  H * * *         fFF[-P]F
+rul21 0       100  O * * *         fFF[+P]F
+rul22 0       100  p * * *         abF
+rul23 0       100  j * * *         FFFQ[+A][-I]FFfk
+rul24 0       100  a * * *         Ff
+rul25 0       100  b * * *         c
+rul26 0       100  k * * *         +FFFQ[+A][-I]FFfl
+rul27 0       100  l * * *         FFFQ[+A][-I]FFfm
+rul28 0       100  m * * *         -FFFQ[+A][-I]FFfn
+rul29 0       100  n * * *         FFFQ[+A][-I]FFfo
+rul30 0       100  o * * *         FFFQ[-fp]FFfc

@@ -1,0 +1,243 @@
+Avg Rule True Length = ,26.44444, Avg Rule Compressed Length ,20
+# Drawing Rules   = ,2,# Producing Rules = ,7,# Terminal Rules  = ,6
+Symbol Pattern
+==============
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,001,000,000,000,000,000,000,000,000,000,009,000,000,000,000,
+000,000,000,000,000,000,001,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,002,002,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,002,002,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,001,000,000,000,000,000,
+001,000,000,000,000,000,004,000,000,004,000,000,000,000,000,000,003,000,002,000,000,000,000,010,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,002,002,000,000,
+002,000,000,000,000,000,002,000,000,006,000,000,000,000,000,000,005,000,000,001,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,002,000,000,000,000,000,000,
+002,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,002,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+001,000,000,000,000,000,000,000,000,000,000,000,000,001,000,000,002,000,000,000,000,000,000,000,
+000,000,000,000,000,000,001,000,000,000,000,000,000,000,000,000,000,002,002,000,000,000,000,000,
+000,000,000,004,000,000,002,000,004,004,000,000,000,002,000,000,002,000,000,000,000,000,000,000,
+000,009,000,000,004,002,000,000,000,000,000,000,002,000,004,000,002,000,000,000,000,000,000,000,
+000,000,000,000,000,000,002,000,000,000,002,002,000,000,000,003,000,010,000,000,002,000,000,000,
+000,000,000,000,000,000,008,000,000,000,000,000,000,000,000,003,000,000,010,000,000,002,000,000,
+001,000,000,000,000,000,001,000,000,000,000,000,000,000,000,008,000,000,000,018,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,003,003,000,000,000,004,000,000,000,
+002,000,000,000,000,000,000,000,000,000,000,000,000,000,000,001,003,000,000,000,000,004,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,
+000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,004,006,000,000,000,000,000,
+
+Compressed Symbol Pattern
+=========================
+005,044,
+041,133,
+
+Rule #00 Statistics
+===================
+Rule Pattern: ,SB 1G 1S EB SB 1G 1S SB 1G 1S EB 1G 1S SB 1G 1S EB 1G 1S SB 1G 1S EB 1G 1S SB 1G 1S EB SB 1G 1S SB 1G 1S EB 1G 1S SB 1G 1S EB 1G 1S SB 1G 1S EB 1G 1S SB 1G 1S EB 
+Compressed Pattern: ,BGSEBGSBGSEGSBGSEGSBGSEGSBGSEBGSBGSEGSBGSEGSBGSEGSBGSE
+True Length: ,82 Compressed Length: 54
+Ratio Producing to Graphical = ,0.3148148
+# Repeated Symbols = ,0
+# G2P transitions = ,17
+# P2G transitions = ,17
+Unique Symbols: A,U,V,
+Unique Graphics: [,&,],/,\,
+Is producer? ,True
+Produces producer? ,True
+
+Rule #01 Statistics
+===================
+Rule Pattern: ,SB 1G 1G 1G EB 1G 2S SB 1G 1G 1G EB 1G 3S 
+Compressed Pattern: ,BGESBGES
+True Length: ,21 Compressed Length: 17
+Ratio Producing to Graphical = ,0.2941177
+# Repeated Symbols = ,2
+# G2P transitions = ,0
+# P2G transitions = ,3
+Unique Symbols: X,B,
+Unique Graphics: [,/,-,P,],;,\,+,
+Is producer? ,True
+Produces producer? ,True
+
+Rule #02 Statistics
+===================
+Rule Pattern: ,SB 1G 1G 1G EB 1G 2S SB 1G 1G 1G EB 2S 1G 1G 1S 
+Compressed Pattern: ,BGESBGESGS
+True Length: ,22 Compressed Length: 18
+Ratio Producing to Graphical = ,0.2777778
+# Repeated Symbols = ,2
+# G2P transitions = ,1
+# P2G transitions = ,4
+Unique Symbols: X,A,
+Unique Graphics: [,/,-,P,],;,\,+,&,
+Is producer? ,True
+Produces producer? ,True
+
+Rule #03 Statistics
+===================
+Rule Pattern: ,2G SB 1G 1S EB 1G SB 1G 1S EB 1S 1G 1G SB 1G 1S EB 1G 1G 1G SB 1G 1S EB 1S 1G 1G 1G SB 1G 1S EB 1G SB 1G 1S EB 1G 1S 1G 
+Compressed Pattern: ,GBSEGBSEGBSEGBSEGBSEGBSEGSG
+True Length: ,53 Compressed Length: 35
+Ratio Producing to Graphical = ,0.2571429
+# Repeated Symbols = ,0
+# G2P transitions = ,8
+# P2G transitions = ,12
+Unique Symbols: L,X,M,
+Unique Graphics: ;,[,-,],.,+,P,
+Is producer? ,True
+Produces producer? ,True
+
+Rule #04 Statistics
+===================
+Rule Pattern: ,SB 1G 1G 1G 1S 1G 1G 1S 1G 1G 1S 1G 1G 1G 1G 1S 1G 1G 1S 1G 1G 1S 1G EB 
+Compressed Pattern: ,BGSGSGSGSGSGSGE
+True Length: ,24 Compressed Length: 24
+Ratio Producing to Graphical = ,0.25
+# Repeated Symbols = ,0
+# G2P transitions = ,6
+# P2G transitions = ,8
+Unique Symbols: X,
+Unique Graphics: [,{,+,F,-,!,},],
+Is producer? ,True
+Produces producer? ,True
+
+Rule #05 Statistics
+===================
+Rule Pattern: ,SB 1G 1G 1G 1S 1G 1S 1G 1G 1S 1G 1G 1G 1G 1S 1G 1S 1G 1G 1S 1G EB 
+Compressed Pattern: ,BGSGSGSGSGSGSGE
+True Length: ,22 Compressed Length: 22
+Ratio Producing to Graphical = ,0.2727273
+# Repeated Symbols = ,0
+# G2P transitions = ,6
+# P2G transitions = ,8
+Unique Symbols: X,
+Unique Graphics: [,{,+,F,-,!,},],
+Is producer? ,True
+Produces producer? ,True
+
+Rule #06 Statistics
+===================
+Rule Pattern: ,1G 1S 
+Compressed Pattern: ,GS
+True Length: ,2 Compressed Length: 2
+Ratio Producing to Graphical = ,0.5
+# Repeated Symbols = ,0
+# G2P transitions = ,1
+# P2G transitions = ,0
+Unique Symbols: X,
+Unique Graphics: F,
+Is producer? ,True
+Produces producer? ,True
+
+Rule #07 Statistics
+===================
+Rule Pattern: ,3G 
+Compressed Pattern: ,G
+True Length: ,3 Compressed Length: 1
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: 
+Unique Graphics: ;,
+Is producer? ,False
+Produces producer? ,False
+
+Rule #08 Statistics
+===================
+Rule Pattern: ,3G 
+Compressed Pattern: ,G
+True Length: ,3 Compressed Length: 1
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: 
+Unique Graphics: .,
+Is producer? ,False
+Produces producer? ,False
+
+Rule #09 Statistics
+===================
+Rule Pattern: ,1G 
+Compressed Pattern: ,G
+True Length: ,1 Compressed Length: 1
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: 
+Unique Graphics: ;,
+Is producer? ,False
+Produces producer? ,False
+
+Rule #10 Statistics
+===================
+Rule Pattern: ,1G 
+Compressed Pattern: ,G
+True Length: ,1 Compressed Length: 1
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: 
+Unique Graphics: !,
+Is producer? ,False
+Produces producer? ,False
+
+Rule #11 Statistics
+===================
+Rule Pattern: ,1G 
+Compressed Pattern: ,G
+True Length: ,1 Compressed Length: 1
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: 
+Unique Graphics: {,
+Is producer? ,False
+Produces producer? ,False
+
+Rule #12 Statistics
+===================
+Rule Pattern: ,1G 
+Compressed Pattern: ,G
+True Length: ,1 Compressed Length: 1
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: 
+Unique Graphics: },
+Is producer? ,False
+Produces producer? ,False
+
+Rule #13 Statistics
+===================
+Rule Pattern: ,1G 
+Compressed Pattern: ,G
+True Length: ,1 Compressed Length: 1
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: 
+Unique Graphics: .,
+Is producer? ,False
+Produces producer? ,False
+
+Rule #14 Statistics
+===================
+Rule Pattern: ,1G 
+Compressed Pattern: ,G
+True Length: ,1 Compressed Length: 1
+Ratio Producing to Graphical = ,0
+# Repeated Symbols = ,0
+# G2P transitions = ,0
+# P2G transitions = ,0
+Unique Symbols: 
+Unique Graphics: P,
+Is producer? ,False
+Produces producer? ,False

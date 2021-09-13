@@ -1,0 +1,14 @@
+vocabulary,A B C D E G H I J K L|=>|[ ] + - F f
+generations,*
+axiom,A
+rule00,*|*,A|=>|[ F f ] - J -
+rule01,*|*,B|=>|[ + G ] + D - -
+rule02,*|*,C|=>|[ F f K ] - - D - f f f - [ + I F F ] F f
+rule03,*|*,D|=>|K f I
+rule04,*|*,E|=>|F - f f f
+rule05,*|*,G|=>|G + H H +
+rule06,*|*,H|=>|F C E E [ - J J F ] F
+rule07,*|*,I|=>|+ F F - F F f F
+rule09,*|*,J|=>|+ + L + F
+rule10,*|*,K|=>|K F F + +
+rule11,*|*,L|=>|H [ f B + ] H

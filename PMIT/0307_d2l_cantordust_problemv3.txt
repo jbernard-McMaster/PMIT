@@ -1,0 +1,8 @@
+alphabet,A B||A B|-1 -1
+generations,3
+axiom A
+table0,100
+parameters,
+#Name TableID Odds P L R Condition Successor
+rule0 0       100  A * * *         ABA
+rule2 0       100  B * * *         BBB

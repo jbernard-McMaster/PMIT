@@ -1,0 +1,7 @@
+vocabulary,A B|=>|
+generations,*
+axiom,A
+rule1,*|*,A>B|=>|A A B
+rule1,*|*,A>A|=>|A B A
+rule1,*|*,A|=>|A B
+rule2,*|*,B|=>|A

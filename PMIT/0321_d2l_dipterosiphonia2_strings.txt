@@ -1,0 +1,4 @@
+B/B/A
+B/B/A/B/B/A/U[-S]U[-C]
+B/B/A/B/B/A/U[-S]U[-C]/B/B/A/B/B/A/U[-S]U[-C]/ffFFFF[-FFFFFFFFF]ffFFFF[-FfF[-FF]fF[-FF]fF[+FF]fF[+FF]fF[-FF]fF[-FF]fF]
+B/B/A/B/B/A/U[-S]U[-C]/B/B/A/B/B/A/U[-S]U[-C]/ffFFFF[-FFFFFFFFF]ffFFFF[-FfF[-FF]fF[-FF]fF[+FF]fF[+FF]fF[-FF]fF[-FF]fF]/B/B/A/B/B/A/U[-S]U[-C]/B/B/A/B/B/A/U[-S]U[-C]/ffFFFF[-FFFFFFFFF]ffFFFF[-FfF[-FF]fF[-FF]fF[+FF]fF[+FF]fF[-FF]fF[-FF]fF]/ffFFFF[-FFFFFFFFF]ffFFFF[-FfF[-FF]fF[-FF]fF[+FF]fF[+FF]fF[-FF]fF[-FF]fF]

@@ -1,0 +1,699 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{68F78A9F-B856-471F-AB5C-42557B331C21}</ProjectGuid>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>PMIT</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>c:\PMIT\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <StringPooling>true</StringPooling>
+      <AdditionalOptions>/F 409600000 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Console</SubSystem>
+      <LargeAddressAware>true</LargeAddressAware>
+      <HeapReserveSize>4096</HeapReserveSize>
+      <HeapCommitSize>3200</HeapCommitSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <LargeAddressAware>true</LargeAddressAware>
+      <HeapReserveSize>4096</HeapReserveSize>
+      <HeapCommitSize>3200</HeapCommitSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="0001_problemv3.txt" />
+    <Text Include="0002_problemv3.txt" />
+    <Text Include="0003_problemv3.txt" />
+    <Text Include="0004_problemv3.txt" />
+    <Text Include="0005_problemv3.txt" />
+    <Text Include="0006_algae_problemv3.txt" />
+    <Text Include="0007_cantordust_problemv3.txt" />
+    <Text Include="0008_kochcurve_problemv3.txt" />
+    <Text Include="0009_dragoncurve_problemv3.txt" />
+    <Text Include="0010_fractaltree_problemv3.txt" />
+    <Text Include="0011_pythogorastree_problemv3.txt" />
+    <Text Include="0012_sierpenskitriangle1_problemv3.txt" />
+    <Text Include="0013_sierpenskitriangle2_problemv3.txt" />
+    <Text Include="0014_gospercurve_problemv3.txt" />
+    <Text Include="0015_ecurve_problemv3.txt" />
+    <Text Include="0016_peano_problemv3.txt" />
+    <Text Include="0017_appletwig_problemv3.txt" />
+    <Text Include="0017_bushlike_problemv3.txt" />
+    <Text Include="0018_aphanocladia_problemv3.txt" />
+    <Text Include="0019_dipterosiphonia1_problemv3.txt" />
+    <Text Include="0020_dipterosiphonia2_problemv3.txt" />
+    <Text Include="0021_ditria_reptans_problemv3.txt" />
+    <Text Include="0022_ditria_zonaricola_problemv3.txt" />
+    <Text Include="0023_herpopteros_problemv3.txt" />
+    <Text Include="0024_herposiphonia_problemv3.txt" />
+    <Text Include="0025_metamorphe_problemv3.txt" />
+    <Text Include="0026_pterocladellium_problemv3.txt" />
+    <Text Include="0027_tenuissimum_problemv3.txt" />
+    <Text Include="0028_fern_problemv3.txt" />
+    <Text Include="0029_bostrychia_radican_problemv3.txt" />
+    <Text Include="0030_algae_s0l_problemv3.txt" />
+    <Text Include="0031_s0l_problemv3.txt" />
+    <Text Include="0032_s0l_problemv3.txt" />
+    <Text Include="0033_s0l_problemv3.txt" />
+    <Text Include="0034_s0l_problemv3.txt" />
+    <Text Include="0035_s0l_problemv3.txt" />
+    <Text Include="0100_wolfram30_problemv3.txt" />
+    <Text Include="0101_wolfram110_problemv3.txt" />
+    <Text Include="0103_wolfram_4symbol_problemv3.txt" />
+    <Text Include="0104_wolfram_5symbol_problemv3.txt" />
+    <Text Include="010_fragment_algae.txt" />
+    <Text Include="010_lexiconMO_algae.txt" />
+    <Text Include="010_lexicon_algae.txt" />
+    <Text Include="010_problem_algae.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="011_fragment_cantordust.txt" />
+    <Text Include="011_lexiconMO_cantordust.txt" />
+    <Text Include="011_lexicon_cantordust.txt" />
+    <Text Include="012_fragment_kochcurve.txt" />
+    <Text Include="012_lexiconMO_kochcurve.txt" />
+    <Text Include="012_lexicon_kochcurve.txt" />
+    <Text Include="013_fragment_dragoncurve.txt" />
+    <Text Include="013_lexiconMO_dragoncurve.txt" />
+    <Text Include="013_lexicon_dragoncurve.txt" />
+    <Text Include="014_fragment_fractalplant.txt" />
+    <Text Include="014_lexiconMO_fractalplant.txt" />
+    <Text Include="014_lexicon_fractalplant.txt" />
+    <Text Include="015_fragment_pythagorastree.txt" />
+    <Text Include="015_lexiconMO_pythagorastree.txt" />
+    <Text Include="015_lexicon_pythagorastree.txt" />
+    <Text Include="016_fragment_sierpenskitriangle.txt" />
+    <Text Include="016_lexiconMO_sierpenskitriangle.txt" />
+    <Text Include="016_lexicon_sierpenskitriangle.txt" />
+    <Text Include="017_fragment_sierpenskitriangle2.txt" />
+    <Text Include="017_lexiconMO_sierpenskitriangle2.txt" />
+    <Text Include="017_lexicon_sierpenskitriangle2.txt" />
+    <Text Include="018_fragment_gospercurve1.txt" />
+    <Text Include="018_lexiconMO_gospercurve1.txt" />
+    <Text Include="018_lexicon_gospercurve1.txt" />
+    <Text Include="0200_lik_problemv3.txt" />
+    <Text Include="0201_lik_problemv3.txt" />
+    <Text Include="020_fragment_ecurve.txt" />
+    <Text Include="020_lexiconMO_ecurve.txt" />
+    <Text Include="020_lexicon_ecurve.txt" />
+    <Text Include="021_fragment_peano.txt" />
+    <Text Include="021_lexiconMO_peano.txt" />
+    <Text Include="021_lexicon_peano.txt" />
+    <Text Include="022_fragment_appletwig.txt" />
+    <Text Include="022_lexiconMO_appletwig.txt" />
+    <Text Include="022_lexicon_appletwig.txt" />
+    <Text Include="022_problem_appletwig.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="024_fragment_bushlike_simplified.txt" />
+    <Text Include="024_lexicon_bushlike_simplified.txt" />
+    <Text Include="025_fragment_aphanocladia.txt" />
+    <Text Include="025_lexicon_aphanocladia.txt" />
+    <Text Include="026_fragment_dipterosiphoniaV1.txt" />
+    <Text Include="027_fragment_dipterosiphoniaV2.txt" />
+    <Text Include="028_fragment_ditira_reptans.txt" />
+    <Text Include="029_fragment_ditira_zonaricola.txt" />
+    <Text Include="0300_d2l_problemv3.txt" />
+    <Text Include="0301_d2l_problemv3.txt" />
+    <Text Include="0306_d2l_algae_problemv3.txt" />
+    <Text Include="0307_d2l_cantordust_problemv3.txt" />
+    <Text Include="0308_d2l_kochcurve_problemv3.txt" />
+    <Text Include="0309_d2l_dragoncurve_problemv3.txt" />
+    <Text Include="030_fragment_herpopteros.txt" />
+    <Text Include="0310_d2l_fractaltree_problemv3.txt" />
+    <Text Include="0311_d2l_pythogorastree_problemv3.txt" />
+    <Text Include="0312_d2l_siepenskitriangle1_problemv3.txt" />
+    <Text Include="0313_d2l_sierpenskitriangle2_problemv3.txt" />
+    <Text Include="0314_d2l_gospercurve_problemv3.txt" />
+    <Text Include="0315_d2l_ecurve_problemv3.txt" />
+    <Text Include="0316_d2l_peano_problemv3.txt" />
+    <Text Include="0317_d2l_apple_twig_problemv3.txt" />
+    <Text Include="0318_d2l_fibonacci_bush_problemv3.txt" />
+    <Text Include="0319_d2l_aphanocladia_problemv3.txt" />
+    <Text Include="0320_d2l_dipterosiphonia1_problemv3.txt" />
+    <Text Include="031_fragment_herposiphonia.txt" />
+    <Text Include="0321_d2l_dipterosiphonia2_problemv3.txt" />
+    <Text Include="0322_d2l_ditria_reptans_problemv3.txt" />
+    <Text Include="0323_d2l_ditria_zonaricola_problemv3.txt" />
+    <Text Include="0324_d2l_herpopteros_problemv3.txt" />
+    <Text Include="0325_d2l_heposiphonia_problemv3.txt" />
+    <Text Include="0326_d2l_metamorphe_problemv3.txt" />
+    <Text Include="0327_d2l_pterocladellium_problemv3.txt" />
+    <Text Include="0328_d2l_tenuissimum_problemv3.txt" />
+    <Text Include="0329_d2l_fern_problemv3.txt" />
+    <Text Include="0330_d2l_bostrychia_radican_problemv3.txt" />
+    <Text Include="032_fragment_metamorphe.txt" />
+    <Text Include="0331_d2l_senstree_problemv3.txt" />
+    <Text Include="0332_d2l_mycelis_problemv3.txt" />
+    <Text Include="0333_d2l_shrub_problemv3.txt" />
+    <Text Include="033_fragment_pterocladellium.txt" />
+    <Text Include="034_fragment_tenuissimum.txt" />
+    <Text Include="035_problem_fern.txt" />
+    <Text Include="036_problem_bostrychia_radican.txt" />
+    <Text Include="0406_hd0l_algae_problemv3.txt" />
+    <Text Include="0407_hd0l_cantordust_problemv3.txt" />
+    <Text Include="0409_hd0l_dragoncurve_problemv3.txt" />
+    <Text Include="0410_fractaltree_problemv3.txt" />
+    <Text Include="0411_pythogorastree_problemv3.txt" />
+    <Text Include="0412_sierpenskitriangle1_problemv3.txt" />
+    <Text Include="0413_sierpenskitriangle2_problemv3.txt" />
+    <Text Include="0414_gospercurve_problemv3.txt" />
+    <Text Include="0415_ecurve_problemv3.txt" />
+    <Text Include="0416_peano_problemv3.txt" />
+    <Text Include="0417_appletwig_problemv3.txt" />
+    <Text Include="0418_bushlike_problemv3.txt" />
+    <Text Include="0418_hd0l_aphanocladia_problemv3.txt" />
+    <Text Include="0419_aphanocladia_problemv3.txt" />
+    <Text Include="0420_dipterosiphonia1_problemv3.txt" />
+    <Text Include="0421_dipterosiphonia2_problemv3.txt" />
+    <Text Include="0422_ditria_reptans_problemv3.txt" />
+    <Text Include="0423_ditria_conaricola_problemv3.txt" />
+    <Text Include="0424_herpopteros_problemv3.txt" />
+    <Text Include="0425_herposiphonia_problemv3.txt" />
+    <Text Include="0426_metamorphe_problemv3.txt" />
+    <Text Include="0427_pterocladellium_problemv3.txt" />
+    <Text Include="0428_tenuissimum_problemv3.txt" />
+    <Text Include="0429_fernlike_problemv3.txt" />
+    <Text Include="0430_bostrychia_radican_problemv3.txt" />
+    <Text Include="0431_hd0l_mystery_problemv3.txt" />
+    <Text Include="0432_hd0l_mystery_problemv3.txt" />
+    <Text Include="097_problem_lowlimit.txt" />
+    <Text Include="098_problem_limittest.txt" />
+    <Text Include="099_problem_random1.txt" />
+    <Text Include="0102_wolfram_3symbol_problemv3.txt" />
+    <Text Include="113_fragment_dragoncurve.txt" />
+    <Text Include="113_lexicon_dragoncurve.txt" />
+    <Text Include="113_problem_dragoncurve.txt" />
+    <Text Include="121_fragment_peano.txt" />
+    <Text Include="121_lexicon_peano.txt" />
+    <Text Include="121_problem_peano.txt" />
+    <Text Include="122_fragment_appletwig.txt" />
+    <Text Include="122_lexicon_appletwig.txt" />
+    <Text Include="122_problem_appletwig.txt" />
+    <Text Include="124_lexicon_bushlike_simplified.txt" />
+    <Text Include="124_problem_bushlike_simplified.txt" />
+    <Text Include="125_fragment_aphanocladia.txt" />
+    <Text Include="125_lexicon_aphanocladia.txt" />
+    <Text Include="125_problem_aphanocladia.txt" />
+    <Text Include="126_fragment_dipterosiphoniaV1.txt" />
+    <Text Include="126_lexicon_dipterosiphoniaV1.txt" />
+    <Text Include="126_problem_dipterosiphoniaV1.txt" />
+    <Text Include="127_fragment_dipterosiphoniaV2.txt" />
+    <Text Include="127_lexicon_dipterosiphoniaV2.txt" />
+    <Text Include="127_problem_dipterosiphoniaV2.txt" />
+    <Text Include="128_fragment_ditira_reptans.txt" />
+    <Text Include="128_lexicon_ditira_reptans.txt" />
+    <Text Include="128_problem_ditira_reptans.txt" />
+    <Text Include="129_fragment_ditira_zonaricola.txt" />
+    <Text Include="129_lexicon_ditira_zonaricola.txt" />
+    <Text Include="129_problem_ditira_zonaricola.txt" />
+    <Text Include="130_fragment_herpopteros.txt" />
+    <Text Include="130_lexicon_herpopteros.txt" />
+    <Text Include="130_problem_herpopteros.txt" />
+    <Text Include="131_fragment_herposiphonia.txt" />
+    <Text Include="131_lexicon_herposiphonia.txt" />
+    <Text Include="131_problem_herposiphonia.txt" />
+    <Text Include="132_fragment_metamorphe.txt" />
+    <Text Include="132_lexicon_metamorphe.txt" />
+    <Text Include="132_problem_metamorphe.txt" />
+    <Text Include="133_fragment_pterocladellium.txt" />
+    <Text Include="133_lexicon_pterocladellium.txt" />
+    <Text Include="133_problem_pterocladellium.txt" />
+    <Text Include="134_fragment_tenuissimum.txt" />
+    <Text Include="134_lexicon_tenuissimum.txt" />
+    <Text Include="134_problem_tenuissimum.txt" />
+    <Text Include="923_problem_bushlike.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="011_problem_cantordust.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="013_problem_dragoncurve.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="020_problem_ecurve.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="014_problem_fractalplant.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="018_problem_gospercurve1.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="024_problem_bushlike_simplified.txt" />
+    <Text Include="025_lexiconMO_aphanocladia.txt" />
+    <Text Include="025_problem_aphanocladia.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="026_lexiconMO_dipterosiphoniaV1.txt" />
+    <Text Include="026_lexicon_dipterosiphoniaV1.txt" />
+    <Text Include="026_problem_dipterosiphoniaV1.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="027_lexiconMO_dipterosiphoniaV2.txt" />
+    <Text Include="027_lexicon_dipterosiphoniaV2.txt" />
+    <Text Include="027_problem_dipterosiphoniaV2.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="028_lexiconMO_ditira_reptans.txt" />
+    <Text Include="028_lexicon_ditira_reptans.txt" />
+    <Text Include="028_problem_ditira_reptans.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="029_lexiconMO_ditira_zonaricola.txt" />
+    <Text Include="029_lexicon_ditira_zonaricola.txt" />
+    <Text Include="029_problem_ditira_zonaricola.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="030_lexiconMO_herpopteros.txt" />
+    <Text Include="030_lexicon_herpopteros.txt" />
+    <Text Include="030_problem_herpopteros.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="031_lexiconMO_herposiphonia.txt" />
+    <Text Include="031_lexicon_herposiphonia.txt" />
+    <Text Include="031_problem_herposiphonia.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="032_lexiconMO_metamorphe.txt" />
+    <Text Include="032_lexicon_metamorphe.txt" />
+    <Text Include="032_problem_metamorphe.txt" />
+    <Text Include="033_lexiconMO_pterocladellium.txt" />
+    <Text Include="033_lexicon_pterocladellium.txt" />
+    <Text Include="033_problem_pterocladellium.txt" />
+    <Text Include="034_lexiconMO_tenuissimum.txt" />
+    <Text Include="034_lexicon_tenuissimum.txt" />
+    <Text Include="034_problem_tenuissimum.txt" />
+    <Text Include="310_problem_algae2.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="311_problem_cantordust2.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="312_problem_kochcurve.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="810_problem_algae3.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="910_problem_algae4.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="9xx_problem_hilbert.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="012_problem_kochcurve.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="021_problem_peano.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="016_problem_sierpenskitriangle.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="015_problem_pythagorastree.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="017_problem_sierpenskitriangle2.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="configuration.txt" />
+    <Text Include="0036_japanese_cypress.txt" />
+    <Text Include="left2right_0.txt" />
+    <Text Include="left2right_1.txt" />
+    <Text Include="left2right_2.txt" />
+    <Text Include="localization.txt" />
+    <Text Include="lsit.txt" />
+    <Text Include="MAO.txt" />
+    <Text Include="MAO_working_Aug20.txt" />
+    <Text Include="MAO_working_aug22nd.txt" />
+    <Text Include="ReadMe.txt" />
+    <Text Include="right2left0.txt" />
+    <Text Include="right2left1.txt" />
+    <Text Include="right2left2.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlphabetV3.h" />
+    <ClInclude Include="BruteForceSearchR_Dbl_PMIT.h" />
+    <ClInclude Include="constants.h" />
+    <ClInclude Include="D2LProblemV3.h" />
+    <ClInclude Include="defines.h" />
+    <ClInclude Include="EDCProblemV3.h" />
+    <ClInclude Include="EDCProblemV3_SuccessorSearch.h" />
+    <ClInclude Include="error.h" />
+    <ClInclude Include="EvidenceFactoryV3.h" />
+    <ClInclude Include="FactCounter.h" />
+    <ClInclude Include="Fragment.h" />
+    <ClInclude Include="functions.h" />
+    <ClInclude Include="HD0LProblemV3.h" />
+    <ClInclude Include="Lexicon.h" />
+    <ClInclude Include="LiKProblem.h" />
+    <ClInclude Include="LSIProblemV3.h" />
+    <ClInclude Include="LSIProblemV3_Wolfram.h" />
+    <ClInclude Include="MasterAnalysisObject.h" />
+    <ClInclude Include="mathparser.h" />
+    <ClInclude Include="ModelV3.h" />
+    <ClInclude Include="PMIFitnessFunction.h" />
+    <ClInclude Include="PMIFitnessFunction_Parikh.h" />
+    <ClInclude Include="PMIFitnessFunction_Positional.h" />
+    <ClInclude Include="PMIModelGeneratorV3.h" />
+    <ClInclude Include="PMIProblemV1E_D_v1.h" />
+    <ClInclude Include="PMIProblemV1E_D_v2.h" />
+    <ClInclude Include="PMIProblemV2A.h" />
+    <ClInclude Include="PMIProblemV2A_D_v3.h" />
+    <ClInclude Include="PMIProblemV2A_D_v4.h" />
+    <ClInclude Include="PMIProblemV2A_Lex_v1.h" />
+    <ClInclude Include="PMIProblemV2A_L_v2.h" />
+    <ClInclude Include="PMIProblemV2A_ML.h" />
+    <ClInclude Include="PMIProblemV2A_Parikh.h" />
+    <ClInclude Include="PMIProblemV2A_PoG_v1.h" />
+    <ClInclude Include="PMIProblemV2A_PoG_v1b.h" />
+    <ClInclude Include="PMIProblemV2A_PoG_v2.h" />
+    <ClInclude Include="PMIProblemV2A_PoL_v1.h" />
+    <ClInclude Include="PMIProblemV2A_Lex_v1b.h" />
+    <ClInclude Include="PMIProblemV2A_PoL_v1b.h" />
+    <ClInclude Include="PMIProblemV2A_Rule.h" />
+    <ClInclude Include="PMIProblemV2_V1Emulator.h" />
+    <ClInclude Include="PMIProcessorV3.h" />
+    <ClInclude Include="PMIProcessor_V2A.h" />
+    <ClInclude Include="PMIRandomModelGenerator.h" />
+    <ClInclude Include="ProductionRuleCondition.h" />
+    <ClInclude Include="ProductionRuleV3.h" />
+    <ClInclude Include="ProductionTableV3.h" />
+    <ClInclude Include="S0LMProblemV3.h" />
+    <ClInclude Include="S0LProblemV3.h" />
+    <ClInclude Include="variablelist.h" />
+    <ClInclude Include="Word.h" />
+    <ClInclude Include="Belief_ConsistentRules.h" />
+    <ClInclude Include="ConsistencyItem.h" />
+    <ClInclude Include="ConsistencyTable.h" />
+    <ClInclude Include="EvidenceFactory.h" />
+    <ClInclude Include="GeneticAlgorithmPMIT.h" />
+    <ClInclude Include="GenomePMIT_Length.h" />
+    <ClInclude Include="ParikhEquation.h" />
+    <ClInclude Include="PlantModel.h" />
+    <ClInclude Include="PlantModelStochastic.h" />
+    <ClInclude Include="PMIException.h" />
+    <ClInclude Include="PMIPerformanceMetrics.h" />
+    <ClInclude Include="PMIProblem.h" />
+    <ClInclude Include="PMIProblemSet.h" />
+    <ClInclude Include="PMIProblemV2.h" />
+    <ClInclude Include="PMIProblem_Direct.h" />
+    <ClInclude Include="PMIProblem_Directv2.h" />
+    <ClInclude Include="PMIProblem_Directv3.h" />
+    <ClInclude Include="PMIProblem_ECC.h" />
+    <ClInclude Include="PMIProblem_FSM.h" />
+    <ClInclude Include="PMIProblem_Lengthv1.h" />
+    <ClInclude Include="PMIProblem_LengthV2.h" />
+    <ClInclude Include="PMIProblem_Math.h" />
+    <ClInclude Include="PMIProblem_Order.h" />
+    <ClInclude Include="PMIProblem_PoL.h" />
+    <ClInclude Include="PMIProblem_PoG.h" />
+    <ClInclude Include="PMIProblem_Search.h" />
+    <ClInclude Include="PMIProcessor.h" />
+    <ClInclude Include="PMIProblemDescriptor.h" />
+    <ClInclude Include="PMISolution.h" />
+    <ClInclude Include="PMITemplateProblem.h" />
+    <ClInclude Include="PMITemplateProblem_Axiom.h" />
+    <ClInclude Include="PMITemplateProblem_Constants.h" />
+    <ClInclude Include="PMITemplateProblem_Modules.h" />
+    <ClInclude Include="ProblemState.h" />
+    <ClInclude Include="ProductionRule.h" />
+    <ClInclude Include="ProductionRuleConstraint.h" />
+    <ClInclude Include="ProductionRuleStochastic.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="RPTChange.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Successor.h" />
+    <ClInclude Include="Symbol.h" />
+    <ClInclude Include="TabuItem.h" />
+    <ClInclude Include="Vocabulary.h" />
+    <ClInclude Include="WordV3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AlphabetV3.cpp" />
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="BruteForceSearchR_Dbl_PMIT.cpp" />
+    <ClCompile Include="D2LProblemV3.cpp" />
+    <ClCompile Include="EDCProblemV3.cpp" />
+    <ClCompile Include="EDCProblemV3_SuccessorSearch.cpp" />
+    <ClCompile Include="error.cpp" />
+    <ClCompile Include="EvidenceFactoryV3.cpp" />
+    <ClCompile Include="FactCounter.cpp" />
+    <ClCompile Include="Fragment.cpp" />
+    <ClCompile Include="functions.cpp" />
+    <ClCompile Include="HD0LProblemV3.cpp" />
+    <ClCompile Include="Lexicon.cpp" />
+    <ClCompile Include="LiKProblem.cpp" />
+    <ClCompile Include="LSIProblemV3.cpp" />
+    <ClCompile Include="LSIProblemV3_Wolfram.cpp" />
+    <ClCompile Include="MasterAnalysisObject.cpp" />
+    <ClCompile Include="mathparser.cpp" />
+    <ClCompile Include="ModelV3.cpp" />
+    <ClCompile Include="PMIFitnessFunction_Parikh.cpp" />
+    <ClCompile Include="PMIFitnessFunction_Positional.cpp" />
+    <ClCompile Include="PMIModelGeneratorV3.cpp" />
+    <ClCompile Include="PMIProblemV1E_D_v1.cpp" />
+    <ClCompile Include="PMIProblemV1E_D_v2.cpp" />
+    <ClCompile Include="PMIProblemV2A.cpp" />
+    <ClCompile Include="PMIProblemV2A_D_v3.cpp" />
+    <ClCompile Include="PMIProblemV2A_D_v4.cpp" />
+    <ClCompile Include="PMIProblemV2A_Lex_v1.cpp" />
+    <ClCompile Include="PMIProblemV2A_L_v2.cpp" />
+    <ClCompile Include="PMIProblemV2A_ML.cpp" />
+    <ClCompile Include="PMIProblemV2A_Parikh.cpp" />
+    <ClCompile Include="PMIProblemV2A_PoG_v1.cpp" />
+    <ClCompile Include="PMIProblemV2A_PoG_v1b.cpp" />
+    <ClCompile Include="PMIProblemV2A_PoG_v2.cpp" />
+    <ClCompile Include="PMIProblemV2A_PoL_v1.cpp" />
+    <ClCompile Include="PMIProblemV2A_Lex_v1b.cpp" />
+    <ClCompile Include="PMIProblemV2A_PoL_v1b.cpp" />
+    <ClCompile Include="PMIProblemV2A_Rule.cpp" />
+    <ClCompile Include="PMIProblemV2_V1Emulator.cpp" />
+    <ClCompile Include="PMIProcessorV3.cpp" />
+    <ClCompile Include="PMIProcessor_V2A.cpp" />
+    <ClCompile Include="PMIRandomModelGenerator.cpp" />
+    <ClCompile Include="ProductionRuleCondition.cpp" />
+    <ClCompile Include="ProductionRuleV3.cpp" />
+    <ClCompile Include="ProductionTableV3.cpp" />
+    <ClCompile Include="S0LMProblemV3.cpp" />
+    <ClCompile Include="S0LProblemV3.cpp" />
+    <ClCompile Include="variablelist.cpp" />
+    <ClCompile Include="Word.cpp" />
+    <ClCompile Include="Belief_ConsistentRules.cpp" />
+    <ClCompile Include="ConsistencyItem.cpp" />
+    <ClCompile Include="ConsistencyTable.cpp" />
+    <ClCompile Include="EvidenceFactory.cpp" />
+    <ClCompile Include="GeneticAlgorithmPMIT.cpp" />
+    <ClCompile Include="GenomePMIT_Length.cpp" />
+    <ClCompile Include="ParikhEquation.cpp" />
+    <ClCompile Include="PlantModel.cpp" />
+    <ClCompile Include="PlantModelStochastic.cpp" />
+    <ClCompile Include="PMIPerformanceMetrics.cpp" />
+    <ClCompile Include="PMIProblem.cpp" />
+    <ClCompile Include="PMIProblemSet.cpp" />
+    <ClCompile Include="PMIProblemV2.cpp" />
+    <ClCompile Include="PMIProblem_Direct.cpp" />
+    <ClCompile Include="PMIProblem_Directv2.cpp" />
+    <ClCompile Include="PMIProblem_Directv3.cpp" />
+    <ClCompile Include="PMIProblem_ECC.cpp" />
+    <ClCompile Include="PMIProblem_FSM.cpp" />
+    <ClCompile Include="PMIProblem_Lengthv1.cpp" />
+    <ClCompile Include="PMIProblem_LengthV2.cpp" />
+    <ClCompile Include="PMIProblem_Math.cpp" />
+    <ClCompile Include="PMIProblem_Order.cpp" />
+    <ClCompile Include="PMIProblem_PoL.cpp" />
+    <ClCompile Include="PMIProblem_PoG.cpp" />
+    <ClCompile Include="PMIProblem_Search.cpp" />
+    <ClCompile Include="PMIProcessor.cpp" />
+    <ClCompile Include="PMIProblemDescriptor.cpp" />
+    <ClCompile Include="PMISolution.cpp" />
+    <ClCompile Include="PMIT.cpp" />
+    <ClCompile Include="PMITemplateProblem.cpp" />
+    <ClCompile Include="PMITemplateProblem_Axiom.cpp" />
+    <ClCompile Include="PMITemplateProblem_Constants.cpp" />
+    <ClCompile Include="PMITemplateProblem_Modules.cpp" />
+    <ClCompile Include="ProblemState.cpp" />
+    <ClCompile Include="ProductionRule.cpp" />
+    <ClCompile Include="ProductionRuleConstraint.cpp" />
+    <ClCompile Include="ProductionRuleStochastic.cpp" />
+    <ClCompile Include="RPTChange.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Successor.cpp" />
+    <ClCompile Include="Symbol.cpp" />
+    <ClCompile Include="TabuItem.cpp" />
+    <ClCompile Include="Vocabulary.cpp" />
+    <ClCompile Include="WordV3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="010_problem_algae_stats.csv" />
+    <None Include="011_problem_cantordust_stats.csv" />
+    <None Include="012_problem_kochcurve_stats.csv" />
+    <None Include="013_problem_dragoncurve_stats.csv" />
+    <None Include="014_problem_fractalplant_stats.csv" />
+    <None Include="015_problem_pythagorastree_stats.csv" />
+    <None Include="016_problem_sierpenskitriangle_stats.csv" />
+    <None Include="017_problem_sierpenskitriangle2_stats.csv" />
+    <None Include="018_problem_gospercurve1_stats.csv" />
+    <None Include="020_problem_ecurve_stats.csv" />
+    <None Include="021_problem_peano_stats.csv" />
+    <None Include="022_problem_appletwig_stats.csv" />
+    <None Include="024_problem_bushlike_simplified_stats.csv" />
+    <None Include="025_problem_aphanocladia_stats.csv" />
+    <None Include="026_problem_dipterosiphoniaV1_stats.csv" />
+    <None Include="027_problem_dipterosiphoniaV2_stats.csv" />
+    <None Include="028_problem_ditira_reptans_stats.csv" />
+    <None Include="029_problem_ditira_zonaricola_stats.csv" />
+    <None Include="030_problem_herpopteros_stats.csv" />
+    <None Include="031_problem_herposiphonia_stats.csv" />
+    <None Include="032_problem_metamorphe_stats.csv" />
+    <None Include="033_problem_pterocladellium_stats.csv" />
+    <None Include="034_problem_tenuissimum_stats.csv" />
+    <None Include="fractal_style_stats1.csv" />
+    <None Include="PDcombined_style_stats2.csv" />
+    <None Include="PDseparated_style_stats3.csv" />
+    <None Include="wolfram_1symbol.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\cjbernard-ainfinity-37e4478fc629\AInfinity\AInfinity.vcxproj">
+      <Project>{446bcee4-e680-49ae-b86c-77caf1a41752}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

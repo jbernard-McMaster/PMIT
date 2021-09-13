@@ -1,0 +1,55 @@
+alphabet,A B C||A B C|-1 -1 -1
+generations,4
+axiom A
+table0,100
+parameters,
+#Name TableID Odds P L R Condition Successor
+rule0 0       100  A * * *         AB
+rule0 0       100  A * A *         AB
+rule0 0       100  A * B *         AB
+rule0 0       100  A * C *         AB
+rule0 0       100  A A * *         AB
+rule0 0       100  A B * *         AB
+rule0 0       100  A C * *         AB
+rule0 0       100  A A A *         AB
+rule0 0       100  A A B *         AB
+rule0 0       100  A A C *         AB
+rule0 0       100  A B A *         AB
+rule0 0       100  A B B *         AB
+rule0 0       100  A B C *         AB
+rule0 0       100  A C A *         AB
+rule0 0       100  A C B *         AB
+rule0 0       100  A C C *         AB
+rule1 0       100  B * * *         AB
+rule1 0       100  B * A *         AB
+rule1 0       100  B * B *         AB
+rule1 0       100  B * C *         AB
+rule1 0       100  B A * *         AB
+rule1 0       100  B B * *         AB
+rule1 0       100  B C * *         AB
+rule1 0       100  B A A *         AB
+rule1 0       100  B A B *         AB
+rule1 0       100  B A C *         AB
+rule1 0       100  B B A *         AB
+rule1 0       100  B B B *         AB
+rule1 0       100  B B C *         AB
+rule1 0       100  B C A *         AB
+rule1 0       100  B C B *         AB
+rule1 0       100  B C C *         AB
+rule2 0       100  C * * *         AB
+rule2 0       100  C * A *         AB
+rule2 0       100  C * B *         AB
+rule2 0       100  C * C *         AB
+rule2 0       100  C A * *         AB
+rule2 0       100  C B * *         AB
+rule2 0       100  C C * *         AB
+rule2 0       100  C A A *         AB
+rule2 0       100  C A B *         AB
+rule2 0       100  C A C *         AB
+rule2 0       100  C B A *         AB
+rule2 0       100  C B B *         AB
+rule2 0       100  C B C *         AB
+rule2 0       100  C C A *         AB
+rule2 0       100  C C B *         AB
+rule2 0       100  C C C *         AB
+
